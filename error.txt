@@ -1,0 +1,151 @@
+# Illuminate\Database\QueryException - Internal Server Error
+
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'users.id' in 'ORDER BY' (Connection: mysql, Host: 127.0.0.1, Port: 3306, Database: gymie, SQL: select * from `follow_ups` where `follow_ups`.`enquiry_id` = 41 and `follow_ups`.`enquiry_id` is not null and `follow_ups`.`gym_id` in (2) and `follow_ups`.`gym_id` = 2 and `follow_ups`.`deleted_at` is null order by `users`.`id` desc limit 10 offset 0)
+
+PHP 8.5.7
+Laravel 12.62.0
+127.0.0.1:8000
+
+## Stack Trace
+
+<!--[if BLOCK]><![endif]-->0 - vendor/laravel/framework/src/Illuminate/Database/Connection.php:838
+1 - vendor/laravel/framework/src/Illuminate/Database/Connection.php:794
+2 - vendor/laravel/framework/src/Illuminate/Database/Connection.php:411
+3 - vendor/laravel/framework/src/Illuminate/Database/Query/Builder.php:3505
+4 - vendor/laravel/framework/src/Illuminate/Database/Query/Builder.php:3490
+5 - vendor/laravel/framework/src/Illuminate/Database/Query/Builder.php:4080
+6 - vendor/laravel/framework/src/Illuminate/Database/Query/Builder.php:3489
+7 - vendor/laravel/framework/src/Illuminate/Database/Eloquent/Builder.php:902
+8 - vendor/laravel/framework/src/Illuminate/Database/Eloquent/Builder.php:884
+9 - vendor/laravel/framework/src/Illuminate/Database/Eloquent/Builder.php:1125
+10 - vendor/filament/tables/src/Concerns/CanPaginateRecords.php:52
+11 - vendor/filament/tables/src/Concerns/HasRecords.php:178
+12 - vendor/filament/tables/src/Table/Concerns/HasRecords.php:84
+13 - vendor/filament/tables/resources/views/index.blade.php:136
+14 - vendor/livewire/livewire/src/Mechanisms/ExtendBlade/ExtendedCompilerEngine.php:37
+15 - vendor/livewire/livewire/src/Mechanisms/ExtendBlade/ExtendedCompilerEngine.php:38
+16 - vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php:76
+17 - vendor/livewire/livewire/src/Mechanisms/ExtendBlade/ExtendedCompilerEngine.php:16
+18 - vendor/laravel/framework/src/Illuminate/View/View.php:208
+19 - vendor/laravel/framework/src/Illuminate/View/View.php:191
+20 - vendor/laravel/framework/src/Illuminate/View/View.php:160
+21 - vendor/filament/support/src/Components/ViewComponent.php:125
+22 - vendor/filament/schemas/src/Components/Component.php:220
+23 - vendor/filament/schemas/src/Schema.php:204
+24 - vendor/filament/support/src/Components/ViewComponent.php:122
+25 - vendor/laravel/framework/src/Illuminate/Support/helpers.php:131
+26 - vendor/filament/filament/resources/views/resources/relation-manager.blade.php:2
+27 - vendor/livewire/livewire/src/Mechanisms/ExtendBlade/ExtendedCompilerEngine.php:37
+28 - vendor/livewire/livewire/src/Mechanisms/ExtendBlade/ExtendedCompilerEngine.php:38
+29 - vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php:76
+30 - vendor/livewire/livewire/src/Mechanisms/ExtendBlade/ExtendedCompilerEngine.php:16
+31 - vendor/laravel/framework/src/Illuminate/View/View.php:208
+32 - vendor/laravel/framework/src/Illuminate/View/View.php:191
+33 - vendor/laravel/framework/src/Illuminate/View/View.php:160
+34 - vendor/livewire/livewire/src/Mechanisms/HandleComponents/HandleComponents.php:415
+35 - vendor/livewire/livewire/src/Mechanisms/HandleComponents/HandleComponents.php:466
+36 - vendor/livewire/livewire/src/Mechanisms/HandleComponents/HandleComponents.php:407
+37 - vendor/livewire/livewire/src/Mechanisms/HandleComponents/HandleComponents.php:243
+38 - vendor/livewire/livewire/src/LivewireManager.php:131
+39 - vendor/livewire/livewire/src/Mechanisms/HandleRequests/HandleRequests.php:205
+40 - vendor/laravel/framework/src/Illuminate/Routing/ControllerDispatcher.php:46
+41 - vendor/laravel/framework/src/Illuminate/Routing/Route.php:265
+42 - vendor/laravel/framework/src/Illuminate/Routing/Route.php:211
+43 - vendor/laravel/framework/src/Illuminate/Routing/Router.php:822
+44 - vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:180
+45 - vendor/livewire/livewire/src/Mechanisms/HandleRequests/RequireLivewireHeaders.php:19
+46 - vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:219
+47 - vendor/laravel/framework/src/Illuminate/Routing/Middleware/SubstituteBindings.php:50
+48 - vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:219
+49 - vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/VerifyCsrfToken.php:87
+50 - vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:219
+51 - vendor/laravel/framework/src/Illuminate/View/Middleware/ShareErrorsFromSession.php:48
+52 - vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:219
+53 - vendor/laravel/framework/src/Illuminate/Session/Middleware/StartSession.php:120
+54 - vendor/laravel/framework/src/Illuminate/Session/Middleware/StartSession.php:63
+55 - vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:219
+56 - vendor/laravel/framework/src/Illuminate/Cookie/Middleware/AddQueuedCookiesToResponse.php:36
+57 - vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:219
+58 - vendor/laravel/framework/src/Illuminate/Cookie/Middleware/EncryptCookies.php:74
+59 - vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:219
+60 - app/Http/Middleware/SetAppLocale.php:49
+61 - vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:219
+62 - vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:137
+63 - vendor/laravel/framework/src/Illuminate/Routing/Router.php:821
+64 - vendor/laravel/framework/src/Illuminate/Routing/Router.php:800
+65 - vendor/laravel/framework/src/Illuminate/Routing/Router.php:764
+66 - vendor/laravel/framework/src/Illuminate/Routing/Router.php:753
+67 - vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php:200
+68 - vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:180
+69 - vendor/livewire/livewire/src/Features/SupportDisablingBackButtonCache/DisableBackButtonCacheMiddleware.php:19
+70 - vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:219
+71 - vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/ConvertEmptyStringsToNull.php:27
+72 - vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:219
+73 - vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TrimStrings.php:47
+74 - vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:219
+75 - vendor/laravel/framework/src/Illuminate/Http/Middleware/ValidatePostSize.php:27
+76 - vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:219
+77 - vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/PreventRequestsDuringMaintenance.php:109
+78 - vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:219
+79 - vendor/laravel/framework/src/Illuminate/Http/Middleware/HandleCors.php:61
+80 - vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:219
+81 - vendor/laravel/framework/src/Illuminate/Http/Middleware/TrustProxies.php:58
+82 - vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:219
+83 - vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/InvokeDeferredCallbacks.php:22
+84 - vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:219
+85 - vendor/laravel/framework/src/Illuminate/Http/Middleware/ValidatePathEncoding.php:26
+86 - vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:219
+87 - vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:137
+88 - vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php:175
+89 - vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php:144
+90 - vendor/laravel/framework/src/Illuminate/Foundation/Application.php:1220
+91 - public/index.php:20
+92 - vendor/laravel/framework/src/Illuminate/Foundation/resources/server.php:23
+<!--[if ENDBLOCK]><![endif]-->
+## Request
+
+POST /livewire-ae4a1720/update
+
+## Headers
+
+<!--[if BLOCK]><![endif]-->* **host**: 127.0.0.1:8000
+* **connection**: keep-alive
+* **content-length**: 2202
+* **sec-ch-ua-platform**: "Linux"
+* **user-agent**: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+* **sec-ch-ua**: "Brave";v="149", "Chromium";v="149", "Not)A;Brand";v="24"
+* **content-type**: application/json
+* **x-livewire**: 1
+* **sec-ch-ua-mobile**: ?0
+* **accept**: */*
+* **sec-gpc**: 1
+* **accept-language**: en-US,en;q=0.5
+* **origin**: http://127.0.0.1:8000
+* **sec-fetch-site**: same-origin
+* **sec-fetch-mode**: cors
+* **sec-fetch-dest**: empty
+* **referer**: http://127.0.0.1:8000/business-one/enquiries/41
+* **accept-encoding**: gzip, deflate, br, zstd
+* **cookie**: XSRF-TOKEN=eyJpdiI6Ijk5T1ZaV3E3ZHpkRlhNc1ozeHBzeGc9PSIsInZhbHVlIjoiNldYak54VldnSHJBanN2d3hXN1RjZUpBTHU3MnZjYjR1ZVJYck1KTUNtc2h2Z0h6OStJR0p5ZDlUQUdORGJaVWJNMzZNdDZKYjlmaDJXM2kvdmRXTm56Zm1jWmFweGk5Mm00YzNlVVhCY0dpMStlTWdOVUF0YmVkWW1BUnFYQmQiLCJtYWMiOiIzY2NjMTNkMzc2MDQ1Y2NlNzlmZjhmZjY0OWE0ZDZlODQwZjk0N2EyMjQ0NzIxNTY3NmY4NWFjNzcxMTcwNGVhIiwidGFnIjoiIn0%3D; laravel_session=eyJpdiI6Ik9YcE13SlY3NDNrUHVIZFRYTGFGUUE9PSIsInZhbHVlIjoiTngyWUlYcms0TUFqdkhQWmNSdlpjSTZ2dVBRNk1OZWVGc2FDejU2M0lkdjhsUUMzRStHYTQ0VGdhdHQyQkdWWWlsb3o1UGxHYTBJQlZ3bUhYa0VFRG5xWDI3dGdOcThUZmlOZ2JwRVdqUm45SzdyWTVPbGwxWGJER3ZZelRVMHkiLCJtYWMiOiJkOTc2YWY2YjBkMTk1N2U5ZWI3OTAzYzhjN2ZhN2ViNzQyN2I4ZDBkN2VlNDUyMDcxZmI1ZjZjYTg0OTJkZWI5IiwidGFnIjoiIn0%3D
+<!--[if ENDBLOCK]><![endif]-->
+## Route Context
+
+<!--[if BLOCK]><![endif]-->controller: Livewire\Mechanisms\HandleRequests\HandleRequests@handleUpdate
+route name: default-livewire.update
+middleware: web, Livewire\Mechanisms\HandleRequests\RequireLivewireHeaders
+<!--[if ENDBLOCK]><![endif]-->
+## Route Parameters
+
+<!--[if BLOCK]><![endif]-->No route parameter data available.
+<!--[if ENDBLOCK]><![endif]-->
+## Database Queries
+
+<!--[if BLOCK]><![endif]-->* mysql - select * from `users` where `id` = 19 and `users`.`deleted_at` is null limit 1 (1.19 ms)
+* mysql - select * from `gyms` where `url_slug` = 'business-one' limit 1 (0.75 ms)
+* mysql - select exists (select 1 from information_schema.tables where table_schema = schema() and table_name = 'gyms' and table_type in ('BASE TABLE', 'SYSTEM VERSIONED')) as `exists` (0.56 ms)
+* mysql - select `gyms`.*, `gym_user`.`user_id` as `pivot_user_id`, `gym_user`.`gym_id` as `pivot_gym_id`, `gym_user`.`role` as `pivot_role`, `gym_user`.`created_at` as `pivot_created_at`, `gym_user`.`updated_at` as `pivot_updated_at` from `gyms` inner join `gym_user` on `gyms`.`id` = `gym_user`.`gym_id` where `gym_user`.`user_id` = 19 (0.59 ms)
+* mysql - select * from `enquiries` where `enquiries`.`id` = 41 limit 1 (0.62 ms)
+* mysql - select exists (select 1 from information_schema.tables where table_schema = schema() and table_name = 'gyms' and table_type in ('BASE TABLE', 'SYSTEM VERSIONED')) as `exists` (0.93 ms)
+* mysql - select count(*) as aggregate from `follow_ups` where `follow_ups`.`enquiry_id` = 41 and `follow_ups`.`enquiry_id` is not null and `follow_ups`.`gym_id` in (2) and `follow_ups`.`gym_id` = 2 and `follow_ups`.`deleted_at` is null (0.54 ms)
+* mysql - select exists (select 1 from information_schema.tables where table_schema = schema() and table_name = 'gyms' and table_type in ('BASE TABLE', 'SYSTEM VERSIONED')) as `exists` (0.46 ms)
+<!--[if ENDBLOCK]><![endif]-->
