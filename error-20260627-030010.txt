@@ -1,0 +1,824 @@
+   0/250 [░░░░░░░░░░░░░░░░░░░░░░░░░░░░]   0%
+  11/250 [▓░░░░░░░░░░░░░░░░░░░░░░░░░░░]   4%
+  22/250 [▓▓░░░░░░░░░░░░░░░░░░░░░░░░░░]   8%
+  25/250 [▓▓░░░░░░░░░░░░░░░░░░░░░░░░░░]  10%
+  39/250 [▓▓▓▓░░░░░░░░░░░░░░░░░░░░░░░░]  15%
+  50/250 [▓▓▓▓▓░░░░░░░░░░░░░░░░░░░░░░░]  20%
+  66/250 [▓▓▓▓▓▓▓░░░░░░░░░░░░░░░░░░░░░]  26%
+  75/250 [▓▓▓▓▓▓▓▓░░░░░░░░░░░░░░░░░░░░]  30%
+  83/250 [▓▓▓▓▓▓▓▓▓░░░░░░░░░░░░░░░░░░░]  33%
+ 100/250 [▓▓▓▓▓▓▓▓▓▓▓░░░░░░░░░░░░░░░░░]  40%
+ 108/250 [▓▓▓▓▓▓▓▓▓▓▓▓░░░░░░░░░░░░░░░░]  43%
+ 121/250 [▓▓▓▓▓▓▓▓▓▓▓▓▓░░░░░░░░░░░░░░░]  48%
+ 125/250 [▓▓▓▓▓▓▓▓▓▓▓▓▓▓░░░░░░░░░░░░░░]  50%
+ 137/250 [▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓░░░░░░░░░░░░░]  54%
+ 143/250 [▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓░░░░░░░░░░░░]  57%
+ 150/250 [▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓░░░░░░░░░░░░]  60%
+ 165/250 [▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓░░░░░░░░░░]  66%
+ 175/250 [▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓░░░░░░░░░]  70%
+ 182/250 [▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓░░░░░░░░]  72%
+ 198/250 [▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓░░░░░░]  79%
+ 200/250 [▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓░░░░░░]  80%
+ 209/250 [▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓░░░░░]  83%
+ 220/250 [▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓░░░░]  88%
+ 225/250 [▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓░░░]  90%
+ 236/250 [▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓░░]  94%
+ 250/250 [▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓] 100%[2026-06-27 07:00:58] ✅ PASSED: Tests\Feature\ApiTest::test_feature_one_api_resources_include_source_and_exclude_goal
+[2026-06-27 07:00:58] ✅ PASSED: Tests\Feature\BusinessRoleResourceTest::test_business_role_create_filters_shield_permission_state_before_database_insert
+[2026-06-27 07:00:58] ✅ PASSED: Tests\Feature\BusinessRoleResourceTest::test_business_role_permission_extraction_rejects_non_permission_strings
+[2026-06-27 07:00:58] ✅ PASSED: Tests\Feature\BusinessRoleResourceTest::test_system_business_role_create_page_can_create_role_with_permission_selection
+[2026-06-27 07:00:59] ✅ PASSED: Tests\Feature\BusinessRoleResourceTest::test_business_role_edit_filters_shield_permission_state_before_database_update
+[2026-06-27 07:00:59] ✅ PASSED: Tests\Feature\BusinessRoleResourceTest::test_business_role_create_forces_web_guard_and_global_gym_scope
+[2026-06-27 07:00:59] ✅ PASSED: Tests\Feature\BusinessRoleResourceTest::test_business_role_duplicate_name_validation_remains_scoped_to_web_global_roles
+[2026-06-27 07:00:59] ✅ PASSED: Tests\Feature\BusinessSlugLoginTest::test_feature_four_business_slug_login_files_are_wired
+[2026-06-27 07:00:59] ✅ PASSED: Tests\Feature\BusinessSlugLoginTest::test_feature_four_mandatory_temp_data_contains_business_slugs
+[2026-06-27 07:00:59] ✅ PASSED: Tests\Feature\BusinessSlugLoginTest::test_feature_four_reserved_slug_rule_blocks_generic_paths
+[2026-06-27 07:01:18] ✅ PASSED: Tests\Feature\FollowUpTest::test_follow_up_feature_files_remain_present_after_feature_one
+[2026-06-27 07:01:20] ✅ PASSED: Tests\Feature\LeadTest::test_enquiry_form_uses_requested_source_options_and_removes_goal
+[2026-06-27 07:01:20] ✅ PASSED: Tests\Feature\LeadTest::test_enquiry_model_and_api_schema_do_not_expose_goal
+[2026-06-27 07:01:20] ✅ PASSED: Tests\Feature\LeadTest::test_feature_two_enquiry_dob_is_optional_and_lead_owner_labels_are_clean
+[2026-06-27 07:01:20] ✅ PASSED: Tests\Feature\MemberTest::test_member_form_uses_requested_source_options_and_removes_goal
+[2026-06-27 07:01:20] ✅ PASSED: Tests\Feature\MemberTest::test_member_model_and_api_schema_do_not_expose_goal
+[2026-06-27 07:01:20] ✅ PASSED: Tests\Feature\MemberTest::test_feature_three_members_receive_locked_global_m_prefixed_codes
+[2026-06-27 07:01:20] ✅ PASSED: Tests\Feature\PaymentTest::test_invoice_transaction_payment_files_remain_present_after_feature_one
+[2026-06-27 07:01:21] ✅ PASSED: Tests\Feature\RolePermissionTest::test_role_and_permission_files_remain_present_after_feature_one
+[2026-06-27 07:01:22] ✅ PASSED: Tests\Feature\SubscriptionTest::test_subscription_feature_files_remain_present_after_feature_one
+[2026-06-27 07:01:22] ✅ PASSED: Tests\Feature\TenantIsolationTest::test_tenant_isolation_trait_remains_present_after_feature_one
+[2026-06-27 07:01:22] ✅ PASSED: Tests\Feature\TenantIsolationTest::test_feature_four_slug_login_preserves_tenant_isolation_contract
+[2026-06-27 07:01:22] ✅ PASSED: Tests\Feature\ValidationTest::test_member_and_enquiry_source_validation_allows_only_requested_values
+[2026-06-27 07:01:22] ✅ PASSED: Tests\Feature\ValidationTest::test_feature_two_enquiry_dob_remains_nullable_in_api_validation
+[2026-06-27 07:01:22] ✅ PASSED: Tests\Regression\RegressionTest::test_feature_one_source_and_goal_regression_contract
+[2026-06-27 07:01:22] ✅ PASSED: Tests\Security\SecurityTest::test_feature_one_removes_stale_goal_attack_surface_from_runtime_code
+[2026-06-27 03:01:23] ❌ FAILED: PHPUnit::testSuite
+  → Error    : One or more tests failed
+  → File     : tests/test.sh
+  → Line     : unknown
+  → Expected : Testing database setup and PHPUnit suite complete successfully.
+  → Got      : Command returned a non-zero exit code.
+  → Hint     : Review the command output appended below this structured failure block.
+
+   WARN  Metadata found in doc-comment for method Tests\Feature\StrictFilamentCrudUiTest::test_member_resource_pages_are_registered(). Metadata in doc-comments is deprecated and will no longer be supported in PHPUnit 12. Update your test code to use attributes instead.
+
+   WARN  Metadata found in doc-comment for method Tests\Feature\StrictFilamentCrudUiTest::test_enquiry_resource_pages_are_registered(). Metadata in doc-comments is deprecated and will no longer be supported in PHPUnit 12. Update your test code to use attributes instead.
+
+   WARN  Metadata found in doc-comment for method Tests\Feature\StrictFilamentCrudUiTest::test_business_role_resource_pages_are_registered(). Metadata in doc-comments is deprecated and will no longer be supported in PHPUnit 12. Update your test code to use attributes instead.
+
+   WARN  Metadata found in doc-comment for method Tests\Feature\StrictFilamentCrudUiTest::test_business_role_create_page_can_create_role_with_permission_selection(). Metadata in doc-comments is deprecated and will no longer be supported in PHPUnit 12. Update your test code to use attributes instead.
+
+   WARN  Metadata found in doc-comment for method Tests\Feature\StrictRoleAccessTest::test_super_admin_can_access_system_panel(). Metadata in doc-comments is deprecated and will no longer be supported in PHPUnit 12. Update your test code to use attributes instead.
+
+   WARN  Metadata found in doc-comment for method Tests\Feature\StrictRoleAccessTest::test_business_user_cannot_access_system_panel(). Metadata in doc-comments is deprecated and will no longer be supported in PHPUnit 12. Update your test code to use attributes instead.
+
+   WARN  Metadata found in doc-comment for method Tests\Feature\StrictRoleAccessTest::test_business_user_can_only_see_own_gym_data_via_api(). Metadata in doc-comments is deprecated and will no longer be supported in PHPUnit 12. Update your test code to use attributes instead.
+
+   WARN  Metadata found in doc-comment for method Tests\Feature\StrictTenantIsolationEdgeTest::test_user_cannot_see_members_from_another_gym(). Metadata in doc-comments is deprecated and will no longer be supported in PHPUnit 12. Update your test code to use attributes instead.
+
+   WARN  Metadata found in doc-comment for method Tests\Feature\StrictTenantIsolationEdgeTest::test_cross_gym_access_is_blocked_on_direct_model_query(). Metadata in doc-comments is deprecated and will no longer be supported in PHPUnit 12. Update your test code to use attributes instead.
+
+   WARN  Metadata found in doc-comment for method Tests\Security\StrictSecurityPayloadTest::test_unauthorized_api_access_is_rejected(). Metadata in doc-comments is deprecated and will no longer be supported in PHPUnit 12. Update your test code to use attributes instead.
+
+   WARN  Metadata found in doc-comment for method Tests\Security\StrictSecurityPayloadTest::test_xss_like_payload_in_search_is_sanitized(). Metadata in doc-comments is deprecated and will no longer be supported in PHPUnit 12. Update your test code to use attributes instead.
+
+   WARN  Metadata found in doc-comment for method Tests\Security\StrictSecurityPayloadTest::test_sql_like_search_does_not_cause_error(). Metadata in doc-comments is deprecated and will no longer be supported in PHPUnit 12. Update your test code to use attributes instead.
+
+   WARN  Metadata found in doc-comment for method Tests\Security\StrictSecurityPayloadTest::test_negative_expense_amount_is_rejected(). Metadata in doc-comments is deprecated and will no longer be supported in PHPUnit 12. Update your test code to use attributes instead.
+PHPUnit 11.5.50 by Sebastian Bergmann and contributors.
+
+Runtime:       PHP 8.5.7
+Configuration: /home/user/Program/Saas/product-onebase/phpunit.xml
+
+
+   PASS  Tests\Unit\AdminPanelProviderMiddlewareTest
+  ✓ it includes the locale middleware in the admin panel stack           0.33s  
+
+   PASS  Tests\Unit\AnalyticsDateRangeTest
+  ✓ it resolves last 30 days correctly                                   0.05s  
+  ✓ it resolves month to date correctly                                  0.04s  
+  ✓ it swaps custom range when dates are reversed                        0.04s  
+
+   PASS  Tests\Unit\AnalyticsServiceTest
+  ✓ it calculates collected financial and membership metrics within a c… 2.72s  
+
+   PASS  Tests\Unit\DashboardHeaderActionsTest
+  ✓ it does not register quick actions in the dashboard header           0.07s  
+  ✓ it does not show an export button in the dashboard header view       0.06s  
+
+   PASS  Tests\Unit\DashboardLayoutTest
+  ✓ it renders the dashboard grid as 4 columns on md                     0.04s  
+  ✓ it includes membership overview on the dashboard                     0.04s  
+  ✓ it positions spending overview next to financial at md               0.04s  
+  ✓ it keeps membership and recent transactions full width on md         0.04s  
+
+   PASS  Tests\Unit\DiscountsTest
+  ✓ it builds discount options from settings                             0.06s  
+  ✓ it calculates discount amount                                        0.04s  
+
+   PASS  Tests\Unit\ExampleTest
+  ✓ that true is true                                                    0.04s  
+
+   PASS  Tests\Unit\FilamentLocalizationTest
+  ✓ it localizes Filament resource labels with dataset "fr"              0.04s  
+  ✓ it localizes Filament resource labels with dataset "ar"              0.05s  
+
+   PASS  Tests\Unit\FiscalYearTest
+  ✓ it calculates fiscal year span for dates after the start             0.04s  
+  ✓ it shifts fiscal year back when date is before the start             0.05s  
+
+   PASS  Tests\Unit\FollowUpTableColumnsTest
+  ✓ it exposes reusable follow-up table columns                          0.04s  
+  ✓ it exposes reusable follow-up filters and actions                    0.06s  
+
+   PASS  Tests\Unit\GlobalSearchConfigurationTest
+  ✓ resources define meaningful global search attributes                 0.04s  
+  ✓ resources provide informative global search titles and details       0.07s  
+
+   PASS  Tests\Unit\InvoiceCalculatorTest
+  ✓ it calculates an invoice summary with rounding and clamping          0.04s  
+  ✓ it never returns negative totals or dues                             0.04s  
+
+   PASS  Tests\Unit\InvoiceDisplayStatusLabelTest
+  ✓ it shows issued label for issued invoices                            0.04s  
+  ✓ it shows paid label for paid invoices                                0.04s  
+
+   PASS  Tests\Unit\InvoiceNumberGeneratorTest
+  ✓ no existing invoices returns g y1                                    0.04s  
+  ✓ two in range invoices returns g y3                                   0.06s  
+  ✓ out of range invoices returns g y1                                   0.06s  
+
+   PASS  Tests\Unit\JsonSettingsRepositoryCacheTest
+  ✓ it returns updated settings after put() within the same request      0.05s  
+
+   PASS  Tests\Unit\MemberCodeGeneratorTest
+  ✓ generated member code uses m prefix and three uppercase alphanumeri… 0.05s  
+  ✓ member creation assigns global unique m prefixed codes               0.05s  
+  ✓ member code is locked after creation                                 0.04s  
+  ✓ soft deleted member code is not reused                               0.04s  
+
+   PASS  Tests\Unit\PaymentMethodTest
+  ✓ it normalizes and classifies payment methods                         0.04s  
+  ✓ it exposes stable payment method options for forms                   0.04s  
+
+   PASS  Tests\Unit\SetAppLocaleMiddlewareTest
+  ✓ it syncs Carbon locale with app locale                               0.05s  
+
+   PASS  Tests\Feature\Api\AnalyticsApiTest
+  ✓ it returns analytics payloads                                        0.12s  
+
+   PASS  Tests\Feature\Api\ApiCrudFlowTest
+  ✓ it supports core CRUD flows for integrations                         0.82s  
+
+   PASS  Tests\Feature\Api\ApiPermissionsTest
+  ✓ it returns an unauthenticated JSON response without redirecting to…  0.05s  
+  ✓ it forbids access when required permissions are missing              0.04s  
+  ✓ it allows access when the correct permission is granted              0.06s  
+
+   PASS  Tests\Feature\Api\AuthApiTest
+  ✓ it logs in and returns a bearer token                                0.08s  
+  ✓ it logs out and revokes the current token                            0.06s  
+
+   PASS  Tests\Feature\Api\LocaleApiTest
+  ✓ it localizes API error messages via the locale query parameter       0.06s  
+
+   PASS  Tests\Feature\Api\RichFilteringApiTest
+  ✓ it supports allowlisted filters and includes                         0.08s  
+  ✓ it returns 400 for invalid query parameters                          0.06s  
+
+   PASS  Tests\Feature\Api\SettingsApiTest
+  ✓ it reads and updates settings via the API                            0.05s  
+
+   PASS  Tests\Feature\ApiTest
+  ✓ feature one api resources include source and exclude goal            0.05s  
+
+   PASS  Tests\Feature\BusinessRoleResourceTest
+  ✓ business role create filters shield permission state before databas… 0.05s  
+  ✓ business role permission extraction rejects non permission strings   0.04s  
+  ✓ system business role create page can create role with permission se… 0.64s  
+  ✓ business role edit filters shield permission state before database…  0.53s  
+  ✓ business role create forces web guard and global gym scope           0.04s  
+  ✓ business role duplicate name validation remains scoped to web globa… 0.38s  
+
+   PASS  Tests\Feature\BusinessSlugLoginTest
+  ✓ feature four business slug login files are wired                     0.05s  
+  ✓ feature four mandatory temp data contains business slugs             0.04s  
+  ✓ feature four reserved slug rule blocks generic paths                 0.04s  
+
+   PASS  Tests\Feature\CascadingSoftDeletesTest
+  ✓ soft deleting an enquiry cascades to follow ups and restore reverse… 0.06s  
+  ✓ soft deleting a member cascades to subscriptions and invoices        0.09s  
+
+   PASS  Tests\Feature\DashboardDemoSeederTest
+  ✓ dashboard demo seeder creates enough data for analytics widgets      8.33s  
+  ✓ dashboard demo seeder avoids invoice number collisions with trashed… 0.14s  
+  ✓ dashboard demo seeder does not queue invoice emails                  8.88s  
+
+   PASS  Tests\Feature\ExampleTest
+  ✓ the application returns a successful response                        0.09s  
+
+   PASS  Tests\Feature\ExpiringNotificationCommandTest
+  ✓ it sends notification for gym expiring within 10 days                0.09s  
+  ✓ it does NOT send notification for gym expiring beyond 10 days        0.06s  
+  ✓ it does NOT send notification for suspended gym                      0.06s  
+  ✓ it does NOT send notification for already-expired gym                0.05s  
+  ✓ it rejects invalid --days option                                     0.04s  
+
+   PASS  Tests\Feature\ExpiringSoonSubscriptionsTableWidgetTest
+  ✓ it lists only subscriptions that are ending within the expiring win… 0.07s  
+  ✓ it lists only subscriptions that have already ended in the expired…  0.07s  
+  ✓ it shows only the top 5 expiring memberships on the dashboard widge… 0.28s  
+  ✓ it shows only the top 5 expired memberships on the dashboard widget  0.15s  
+
+   PASS  Tests\Feature\FacilityStaffRelationManagerTest
+  ✓ it shows only facility staff for current gym via facilityStaff rela… 0.07s  
+  ✓ it facilityStaff excludes users with username admin                  0.05s  
+  ✓ it facilityUsers scope excludes usernames colliding with system_adm… 0.05s  
+
+   PASS  Tests\Feature\FinancialMetricsWidgetTest
+  ✓ it does not render sparklines on net revenue and total collected ca… 0.08s  
+
+   PASS  Tests\Feature\FollowUpTest
+  ✓ follow up feature files remain present after feature one             0.04s  
+
+   PASS  Tests\Feature\InvoiceDocumentControllerTest
+  ✓ it forbids invoice preview when the user lacks permission            0.09s  
+  ✓ it renders invoice preview when the user has permission              0.37s  
+  ✓ it downloads the invoice as a PDF when the user has permission       0.35s  
+  ✓ it shows a friendly error state when the invoice is missing require… 0.12s  
+
+   PASS  Tests\Feature\InvoiceDocumentViewRendersTest
+  ✓ invoice document view renders Inter font faces and zero page margin… 0.07s  
+
+   PASS  Tests\Feature\InvoiceEmailServiceTest
+  ✓ it sends invoice issued email with reply-to when gym email is confi… 0.35s  
+
+   PASS  Tests\Feature\InvoiceIssuedEmailJobTest
+  ✓ it dispatches the invoice issued email job when enabled in settings  0.08s  
+
+   PASS  Tests\Feature\InvoicePaymentReceiptEmailJobTest
+  ✓ it dispatches the payment receipt email job when enabled in setting… 0.08s  
+
+   PASS  Tests\Feature\InvoiceTotalsConsistencyTest
+  ✓ it keeps subscription_fee as gross and computes tax/total from sett… 0.06s  
+
+   PASS  Tests\Feature\LeadTest
+  ✓ enquiry form uses requested source options and removes goal          0.05s  
+  ✓ enquiry model and api schema do not expose goal                      0.04s  
+  ✓ feature two enquiry dob is optional and lead owner labels are clean  0.04s  
+
+   PASS  Tests\Feature\LocaleSwitcherTest
+  ✓ it persists the selected locale in settings                          0.07s  
+  ✓ it ignores unsupported locales                                       0.06s  
+  ✓ it renders the current locale label in the trigger                   0.07s  
+
+   PASS  Tests\Feature\MarkSubscriptionsStatusCommandTest
+  ✓ it marks expired and expiring subscriptions and sends database noti… 0.11s  
+
+   PASS  Tests\Feature\MemberTest
+  ✓ member form uses requested source options and removes goal           0.04s  
+  ✓ member model and api schema do not expose goal                       0.04s  
+  ✓ feature three members receive locked global m prefixed codes         0.05s  
+
+   PASS  Tests\Feature\MembershipMetricsWidgetTest
+  ✓ it does not show an expiring badge on the active members card        0.09s  
+
+   PASS  Tests\Feature\PaymentTest
+  ✓ invoice transaction payment files remain present after feature one   0.04s  
+
+   PASS  Tests\Feature\RecentTransactionsTableWidgetTest
+  ✓ it shows only the top 5 recent transactions on the dashboard widget  0.19s  
+
+   PASS  Tests\Feature\RolePermissionTest
+  ✓ role and permission files remain present after feature one           0.04s  
+
+   PASS  Tests\Feature\SettingsPagePersistenceTest
+  ✓ it persists settings via the settings repository when saving         0.46s  
+
+   FAIL  Tests\Feature\StrictFilamentCrudUiTest
+  ✓ member resource pages are registered                                 0.04s  
+  ✓ enquiry resource pages are registered                                0.05s  
+  ✓ business role resource pages are registered                          0.04s  
+  ⨯ business role create page can create role with permission selection  0.06s  
+
+   FAIL  Tests\Feature\StrictRoleAccessTest
+  ⨯ super admin can access system panel                                  0.05s  
+  ⨯ business user cannot access system panel                             0.04s  
+  ⨯ business user can only see own gym data via api                      0.05s  
+
+   FAIL  Tests\Feature\StrictTenantIsolationEdgeTest
+  ⨯ user cannot see members from another gym                             0.06s  
+  ✓ cross gym access is blocked on direct model query                    0.06s  
+
+   PASS  Tests\Feature\SubscriptionTest
+  ✓ subscription feature files remain present after feature one          0.04s  
+
+   PASS  Tests\Feature\TenantIsolationTest
+  ✓ tenant isolation trait remains present after feature one             0.04s  
+  ✓ feature four slug login preserves tenant isolation contract          0.04s  
+
+   PASS  Tests\Feature\UserCreateFormRolesTest
+  ✓ it exposes exactly 5 facility role options via enum                  0.04s  
+  ✓ it does NOT expose Spatie role names in facility options             0.04s  
+  ✓ it maps facility OWNER to Spatie super_admin role                    0.04s  
+  ✓ it maps non-owner facility roles to Spatie panel_user role           0.07s  
+  ✓ it rejects unknown role values via tryFrom                           0.04s  
+  ✓ it returns human-readable labels                                     0.04s  
+
+   PASS  Tests\Feature\UserResourceExcludesAdminsTest
+  ✓ it excludes system admins from facility users list                   0.05s  
+  ✓ it excludes user with colliding username from facility users list    0.05s  
+  ✓ it excludes user holding super_admin Spatie role                     0.05s  
+
+   PASS  Tests\Feature\ValidationTest
+  ✓ member and enquiry source validation allows only requested values    0.05s  
+  ✓ feature two enquiry dob remains nullable in api validation           0.04s  
+
+   PASS  Tests\Regression\RegressionTest
+  ✓ feature one source and goal regression contract                      0.05s  
+
+   PASS  Tests\Security\SecurityTest
+  ✓ feature one removes stale goal attack surface from runtime code      0.04s  
+
+   FAIL  Tests\Security\StrictSecurityPayloadTest
+  ✓ unauthorized api access is rejected                                  0.06s  
+  ⨯ xss like payload in search is sanitized                              0.05s  
+  ⨯ sql like search does not cause error                                 0.05s  
+  ✓ negative expense amount is rejected                                  0.05s  
+  ────────────────────────────────────────────────────────────────────────────  
+   FAILED  Tests\Feature\StrictFilamentCrudUiTes…  ComponentNotFoundException   
+  Unable to find component: [filament.resources.business-role-resource.pages.create-business-role]
+
+  at vendor/livewire/livewire/src/Factory/Factory.php:76
+     72▕             }
+     73▕         }
+     74▕ 
+     75▕         if (! $class || ! class_exists($class) || ! is_subclass_of($class, Component::class)) {
+  ➜  76▕             throw new ComponentNotFoundException(
+     77▕                 "Unable to find component: [{$name}]"
+     78▕             );
+     79▕         }
+     80▕
+
+      [2m+5 vendor frames [22m
+  6   storage/framework/views/fa30aa7e9caa22eeca6bf657f08288f2.php:14
+      [2m+36 vendor frames [22m
+  43  tests/Feature/StrictFilamentCrudUiTest.php:39
+
+  ────────────────────────────────────────────────────────────────────────────  
+   FAILED  Tests\Feature\StrictRoleAccessTest > super admin can access syste…   
+  Expected response status code [200] but received 302.
+Failed asserting that 302 is identical to 200.
+
+  at tests/Feature/StrictRoleAccessTest.php:15
+     11▕     {
+     12▕         $super = $this->createSuperAdmin();
+     13▕         $this->actingAs($super);
+     14▕ 
+  ➜  15▕         $this->get('/system')->assertOk();
+     16▕     }
+     17▕ 
+     18▕     /** @test */
+     19▕     public function test_business_user_cannot_access_system_panel()
+
+  ────────────────────────────────────────────────────────────────────────────  
+   FAILED  Tests\Feature\StrictRoleAccessTest > business user cannot access…    
+  Expected response status code [403] but received 302.
+Failed asserting that 302 is identical to 403.
+
+  at tests/Feature/StrictRoleAccessTest.php:24
+     20▕     {
+     21▕         $businessUser = $this->createBusinessUser();
+     22▕         $this->actingAs($businessUser);
+     23▕ 
+  ➜  24▕         $this->get('/system')->assertForbidden();
+     25▕     }
+     26▕ 
+     27▕     /** @test */
+     28▕     public function test_business_user_can_only_see_own_gym_data_via_api()
+
+  ────────────────────────────────────────────────────────────────────────────  
+   FAILED  Tests\Feature\StrictRoleAccessTest > business user can only see o…   
+  Expected response status code [200] but received 403.
+Failed asserting that 403 is identical to 200.
+
+  at tests/Feature/StrictRoleAccessTest.php:34
+     30▕         $user = $this->createBusinessUser();
+     31▕         $this->actingAs($user);
+     32▕ 
+     33▕         $response = $this->getJson('/api/v1/members');
+  ➜  34▕         $response->assertOk();
+     35▕     }
+     36▕ }
+     37▕
+
+  ────────────────────────────────────────────────────────────────────────────  
+   FAILED  Tests\Feature\StrictTenantIsolationEdgeTest > user cannot see mem…   
+  Expected response status code [200] but received 403.
+Failed asserting that 403 is identical to 200.
+
+  at tests/Feature/StrictTenantIsolationEdgeTest.php:25
+     21▕         $this->actingAs($user);
+     22▕ 
+     23▕         $response = $this->getJson('/api/v1/members');
+     24▕ 
+  ➜  25▕         $response->assertOk()
+     26▕             ->assertJsonMissing(['id' => $memberGym2->id]);
+     27▕     }
+     28▕ 
+     29▕     /** @test */
+
+  ────────────────────────────────────────────────────────────────────────────  
+   FAILED  Tests\Security\StrictSecurityPayloadTest > xss like payload in se…   
+  Expected response status code [200] but received 403.
+Failed asserting that 403 is identical to 200.
+
+  at tests/Security/StrictSecurityPayloadTest.php:23
+     19▕         $user = $this->createBusinessUser();
+     20▕         $this->actingAs($user);
+     21▕ 
+     22▕         $response = $this->getJson('/api/v1/members?search=<script>alert(1)</script>');
+  ➜  23▕         $response->assertOk();
+     24▕     }
+     25▕ 
+     26▕     /** @test */
+     27▕     public function test_sql_like_search_does_not_cause_error()
+
+  ────────────────────────────────────────────────────────────────────────────  
+   FAILED  Tests\Security\StrictSecurityPayloadTest > sql like search does n…   
+  Expected response status code [200] but received 403.
+Failed asserting that 403 is identical to 200.
+
+  at tests/Security/StrictSecurityPayloadTest.php:33
+     29▕         $user = $this->createBusinessUser();
+     30▕         $this->actingAs($user);
+     31▕ 
+     32▕         $response = $this->getJson("/api/v1/members?search=' OR 1=1--");
+  ➜  33▕         $response->assertOk();
+     34▕     }
+     35▕ 
+     36▕     /** @test */
+     37▕     public function test_negative_expense_amount_is_rejected()
+
+
+  Tests:    7 failed, 124 passed (753 assertions)
+  Duration: 31.59s
+
+Time: 00:31.305, Memory: 133.00 MB
+
+/home/user/Program/Saas/product-onebase/tests/Feature/Api/AnalyticsApiTest.php
+ ✔ it returns analytics payloads
+
+/home/user/Program/Saas/product-onebase/tests/Feature/Api/ApiCrudFlowTest.php
+ ✔ it supports core CRUD flows for integrations
+
+/home/user/Program/Saas/product-onebase/tests/Feature/Api/ApiPermissionsTest.php
+ ✔ it returns an unauthenticated JSON response without redirecting to a login route
+ ✔ it forbids access when required permissions are missing
+ ✔ it allows access when the correct permission is granted
+
+/home/user/Program/Saas/product-onebase/tests/Feature/Api/AuthApiTest.php
+ ✔ it logs in and returns a bearer token
+ ✔ it logs out and revokes the current token
+
+/home/user/Program/Saas/product-onebase/tests/Feature/Api/LocaleApiTest.php
+ ✔ it localizes API error messages via the locale query parameter
+
+/home/user/Program/Saas/product-onebase/tests/Feature/Api/RichFilteringApiTest.php
+ ✔ it supports allowlisted filters and includes
+ ✔ it returns 400 for invalid query parameters
+
+/home/user/Program/Saas/product-onebase/tests/Feature/Api/SettingsApiTest.php
+ ✔ it reads and updates settings via the API
+
+/home/user/Program/Saas/product-onebase/tests/Feature/CascadingSoftDeletesTest.php
+ ✔ soft deleting an enquiry cascades to follow ups and restore reverses it
+ ✔ soft deleting a member cascades to subscriptions and invoices
+
+/home/user/Program/Saas/product-onebase/tests/Feature/DashboardDemoSeederTest.php
+ ✔ dashboard demo seeder creates enough data for analytics widgets
+ ✔ dashboard demo seeder avoids invoice number collisions with trashed invoices
+ ✔ dashboard demo seeder does not queue invoice emails
+
+/home/user/Program/Saas/product-onebase/tests/Feature/ExampleTest.php
+ ✔ the application returns a successful response
+
+/home/user/Program/Saas/product-onebase/tests/Feature/ExpiringNotificationCommandTest.php
+ ✔ it sends notification for gym expiring within 10 days
+ ✔ it does NOT send notification for gym expiring beyond 10 days
+ ✔ it does NOT send notification for suspended gym
+ ✔ it does NOT send notification for already-expired gym
+ ✔ it rejects invalid --days option
+
+/home/user/Program/Saas/product-onebase/tests/Feature/ExpiringSoonSubscriptionsTableWidgetTest.php
+ ✔ it lists only subscriptions that are ending within the expiring window
+ ✔ it lists only subscriptions that have already ended in the expired tab
+ ✔ it shows only the top 5 expiring memberships on the dashboard widget
+ ✔ it shows only the top 5 expired memberships on the dashboard widget
+
+/home/user/Program/Saas/product-onebase/tests/Feature/FacilityStaffRelationManagerTest.php
+ ✔ it shows only facility staff for current gym via facilityStaff relationship
+ ✔ it facilityStaff excludes users with username admin
+ ✔ it facilityUsers scope excludes usernames colliding with system_admins
+
+/home/user/Program/Saas/product-onebase/tests/Feature/FinancialMetricsWidgetTest.php
+ ✔ it does not render sparklines on net revenue and total collected cards
+
+/home/user/Program/Saas/product-onebase/tests/Feature/InvoiceDocumentControllerTest.php
+ ✔ it forbids invoice preview when the user lacks permission
+ ✔ it renders invoice preview when the user has permission
+ ✔ it downloads the invoice as a PDF when the user has permission
+ ✔ it shows a friendly error state when the invoice is missing required data
+
+/home/user/Program/Saas/product-onebase/tests/Feature/InvoiceDocumentViewRendersTest.php
+ ✔ invoice document view renders Inter font faces and zero page margin css
+
+/home/user/Program/Saas/product-onebase/tests/Feature/InvoiceEmailServiceTest.php
+ ✔ it sends invoice issued email with reply-to when gym email is configured
+
+/home/user/Program/Saas/product-onebase/tests/Feature/InvoiceIssuedEmailJobTest.php
+ ✔ it dispatches the invoice issued email job when enabled in settings
+
+/home/user/Program/Saas/product-onebase/tests/Feature/InvoicePaymentReceiptEmailJobTest.php
+ ✔ it dispatches the payment receipt email job when enabled in settings
+
+/home/user/Program/Saas/product-onebase/tests/Feature/InvoiceTotalsConsistencyTest.php
+ ✔ it keeps subscription_fee as gross and computes tax/total from settings
+
+/home/user/Program/Saas/product-onebase/tests/Feature/LocaleSwitcherTest.php
+ ✔ it persists the selected locale in settings
+ ✔ it ignores unsupported locales
+ ✔ it renders the current locale label in the trigger
+
+/home/user/Program/Saas/product-onebase/tests/Feature/MembershipMetricsWidgetTest.php
+ ✔ it does not show an expiring badge on the active members card
+
+/home/user/Program/Saas/product-onebase/tests/Feature/RecentTransactionsTableWidgetTest.php
+ ✔ it shows only the top 5 recent transactions on the dashboard widget
+
+/home/user/Program/Saas/product-onebase/tests/Feature/SettingsPagePersistenceTest.php
+ ✔ it persists settings via the settings repository when saving
+
+/home/user/Program/Saas/product-onebase/tests/Feature/UserCreateFormRolesTest.php
+ ✔ it exposes exactly 5 facility role options via enum
+ ✔ it does NOT expose Spatie role names in facility options
+ ✔ it maps facility OWNER to Spatie super_admin role
+ ✔ it maps non-owner facility roles to Spatie panel_user role
+ ✔ it rejects unknown role values via tryFrom
+ ✔ it returns human-readable labels
+
+/home/user/Program/Saas/product-onebase/tests/Feature/UserResourceExcludesAdminsTest.php
+ ✔ it excludes system admins from facility users list
+ ✔ it excludes user with colliding username from facility users list
+ ✔ it excludes user holding super_admin Spatie role
+
+/home/user/Program/Saas/product-onebase/tests/Unit/AdminPanelProviderMiddlewareTest.php
+ ✔ it includes the locale middleware in the admin panel stack
+
+/home/user/Program/Saas/product-onebase/tests/Unit/AnalyticsDateRangeTest.php
+ ✔ it resolves last 30 days correctly
+ ✔ it resolves month to date correctly
+ ✔ it swaps custom range when dates are reversed
+
+/home/user/Program/Saas/product-onebase/tests/Unit/AnalyticsServiceTest.php
+ ✔ it calculates collected financial and membership metrics within a custom date range
+
+/home/user/Program/Saas/product-onebase/tests/Unit/DashboardHeaderActionsTest.php
+ ✔ it does not register quick actions in the dashboard header
+ ✔ it does not show an export button in the dashboard header view
+
+/home/user/Program/Saas/product-onebase/tests/Unit/DashboardLayoutTest.php
+ ✔ it renders the dashboard grid as 4 columns on md
+ ✔ it includes membership overview on the dashboard
+ ✔ it positions spending overview next to financial at md
+ ✔ it keeps membership and recent transactions full width on md
+
+/home/user/Program/Saas/product-onebase/tests/Unit/DiscountsTest.php
+ ✔ it builds discount options from settings
+ ✔ it calculates discount amount
+
+/home/user/Program/Saas/product-onebase/tests/Unit/ExampleTest.php
+ ✔ that true is true
+
+/home/user/Program/Saas/product-onebase/tests/Unit/FilamentLocalizationTest.php
+ ✔ it localizes Filament resource labels with data set "dataset "fr""
+ ✔ it localizes Filament resource labels with data set "dataset "ar""
+
+/home/user/Program/Saas/product-onebase/tests/Unit/FiscalYearTest.php
+ ✔ it calculates fiscal year span for dates after the start
+ ✔ it shifts fiscal year back when date is before the start
+
+/home/user/Program/Saas/product-onebase/tests/Unit/FollowUpTableColumnsTest.php
+ ✔ it exposes reusable follow-up table columns
+ ✔ it exposes reusable follow-up filters and actions
+
+/home/user/Program/Saas/product-onebase/tests/Unit/GlobalSearchConfigurationTest.php
+ ✔ resources define meaningful global search attributes
+ ✔ resources provide informative global search titles and details
+
+/home/user/Program/Saas/product-onebase/tests/Unit/InvoiceCalculatorTest.php
+ ✔ it calculates an invoice summary with rounding and clamping
+ ✔ it never returns negative totals or dues
+
+/home/user/Program/Saas/product-onebase/tests/Unit/InvoiceDisplayStatusLabelTest.php
+ ✔ it shows issued label for issued invoices
+ ✔ it shows paid label for paid invoices
+
+/home/user/Program/Saas/product-onebase/tests/Unit/JsonSettingsRepositoryCacheTest.php
+ ✔ it returns updated settings after put() within the same request
+
+/home/user/Program/Saas/product-onebase/tests/Unit/PaymentMethodTest.php
+ ✔ it normalizes and classifies payment methods
+ ✔ it exposes stable payment method options for forms
+
+/home/user/Program/Saas/product-onebase/tests/Unit/SetAppLocaleMiddlewareTest.php
+ ✔ it syncs Carbon locale with app locale
+
+Api (Tests\Feature\Api)
+ ✔ Feature one api resources include source and exclude goal
+
+Business Role Resource (Tests\Feature\BusinessRoleResource)
+ ✔ Business role create filters shield permission state before database insert
+ ✔ Business role permission extraction rejects non permission strings
+ ✔ System business role create page can create role with permission selection
+ ✔ Business role edit filters shield permission state before database update
+ ✔ Business role create forces web guard and global gym scope
+ ✔ Business role duplicate name validation remains scoped to web global roles
+
+Business Slug Login (Tests\Feature\BusinessSlugLogin)
+ ✔ Feature four business slug login files are wired
+ ✔ Feature four mandatory temp data contains business slugs
+ ✔ Feature four reserved slug rule blocks generic paths
+
+Follow Up (Tests\Feature\FollowUp)
+ ✔ Follow up feature files remain present after feature one
+
+Invoice Number Generator (Tests\Unit\InvoiceNumberGenerator)
+ ✔ Step 1: Given no existing invoices → returns GY-1
+ ✔ Step 2: Given two invoices in the fiscal year → returns GY-3
+ ✔ Step 3: Given only out-of-range invoices → returns GY-1
+
+Lead (Tests\Feature\Lead)
+ ✔ Enquiry form uses requested source options and removes goal
+ ✔ Enquiry model and api schema do not expose goal
+ ✔ Feature two enquiry dob is optional and lead owner labels are clean
+
+Mark Subscriptions Status Command (Tests\Feature\MarkSubscriptionsStatusCommand)
+ ✔ It marks expired and expiring subscriptions and sends database notification
+
+Member (Tests\Feature\Member)
+ ✔ Member form uses requested source options and removes goal
+ ✔ Member model and api schema do not expose goal
+ ✔ Feature three members receive locked global m prefixed codes
+
+Member Code Generator (Tests\Unit\MemberCodeGenerator)
+ ✔ Generated member code uses m prefix and three uppercase alphanumeric characters
+ ✔ Member creation assigns global unique m prefixed codes
+ ✔ Member code is locked after creation
+ ✔ Soft deleted member code is not reused
+
+Payment (Tests\Feature\Payment)
+ ✔ Invoice transaction payment files remain present after feature one
+
+Regression (Tests\Regression\Regression)
+ ✔ Feature one source and goal regression contract
+
+Role Permission (Tests\Feature\RolePermission)
+ ✔ Role and permission files remain present after feature one
+
+Security (Tests\Security\Security)
+ ✔ Feature one removes stale goal attack surface from runtime code
+
+Strict Filament Crud Ui (Tests\Feature\StrictFilamentCrudUi)
+ ✔ Member resource pages are registered
+ ✔ Enquiry resource pages are registered
+ ✔ Business role resource pages are registered
+ ✘ Business role create page can create role with permission selection
+   │
+   │ Livewire\Exceptions\ComponentNotFoundException: Unable to find component: [filament.resources.business-role-resource.pages.create-business-role]
+   │
+   │ /home/user/Program/Saas/product-onebase/vendor/livewire/livewire/src/Factory/Factory.php:76
+   │ /home/user/Program/Saas/product-onebase/vendor/livewire/livewire/src/Factory/Factory.php:23
+   │ /home/user/Program/Saas/product-onebase/vendor/livewire/livewire/src/LivewireManager.php:79
+   │ /home/user/Program/Saas/product-onebase/vendor/livewire/livewire/src/Mechanisms/HandleComponents/HandleComponents.php:56
+   │ /home/user/Program/Saas/product-onebase/vendor/livewire/livewire/src/LivewireManager.php:102
+   │ /home/user/Program/Saas/product-onebase/storage/framework/views/fa30aa7e9caa22eeca6bf657f08288f2.php:14
+   │ /home/user/Program/Saas/product-onebase/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php:123
+   │ /home/user/Program/Saas/product-onebase/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php:124
+   │ /home/user/Program/Saas/product-onebase/vendor/laravel/framework/src/Illuminate/View/Engines/PhpEngine.php:57
+   │ /home/user/Program/Saas/product-onebase/vendor/livewire/livewire/src/Mechanisms/ExtendBlade/ExtendedCompilerEngine.php:22
+   │ /home/user/Program/Saas/product-onebase/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php:76
+   │ /home/user/Program/Saas/product-onebase/vendor/livewire/livewire/src/Mechanisms/ExtendBlade/ExtendedCompilerEngine.php:10
+   │ /home/user/Program/Saas/product-onebase/vendor/laravel/framework/src/Illuminate/View/View.php:208
+   │ /home/user/Program/Saas/product-onebase/vendor/laravel/framework/src/Illuminate/View/View.php:191
+   │ /home/user/Program/Saas/product-onebase/vendor/laravel/framework/src/Illuminate/View/View.php:160
+   │ /home/user/Program/Saas/product-onebase/vendor/laravel/framework/src/Illuminate/View/Compilers/BladeCompiler.php:353
+   │ /home/user/Program/Saas/product-onebase/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php:363
+   │ /home/user/Program/Saas/product-onebase/vendor/livewire/livewire/src/Features/SupportTesting/InitialRender.php:25
+   │ /home/user/Program/Saas/product-onebase/vendor/laravel/framework/src/Illuminate/Routing/CallableDispatcher.php:39
+   │ /home/user/Program/Saas/product-onebase/vendor/laravel/framework/src/Illuminate/Routing/Route.php:243
+   │ /home/user/Program/Saas/product-onebase/vendor/laravel/framework/src/Illuminate/Routing/Route.php:214
+   │ /home/user/Program/Saas/product-onebase/vendor/laravel/framework/src/Illuminate/Routing/Router.php:822
+   │ /home/user/Program/Saas/product-onebase/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:180
+   │ /home/user/Program/Saas/product-onebase/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:137
+   │ /home/user/Program/Saas/product-onebase/vendor/laravel/framework/src/Illuminate/Routing/Router.php:821
+   │ /home/user/Program/Saas/product-onebase/vendor/laravel/framework/src/Illuminate/Routing/Router.php:800
+   │ /home/user/Program/Saas/product-onebase/vendor/laravel/framework/src/Illuminate/Routing/Router.php:764
+   │ /home/user/Program/Saas/product-onebase/vendor/laravel/framework/src/Illuminate/Routing/Router.php:753
+   │ /home/user/Program/Saas/product-onebase/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php:200
+   │ /home/user/Program/Saas/product-onebase/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:180
+   │ /home/user/Program/Saas/product-onebase/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:137
+   │ /home/user/Program/Saas/product-onebase/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php:175
+   │ /home/user/Program/Saas/product-onebase/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php:144
+   │ /home/user/Program/Saas/product-onebase/vendor/laravel/framework/src/Illuminate/Foundation/Testing/Concerns/MakesHttpRequests.php:607
+   │ /home/user/Program/Saas/product-onebase/vendor/livewire/livewire/src/Features/SupportTesting/InitialRender.php:33
+   │ /home/user/Program/Saas/product-onebase/vendor/livewire/livewire/src/Features/SupportTesting/RequestBroker.php:30
+   │ /home/user/Program/Saas/product-onebase/vendor/livewire/livewire/src/Features/SupportTesting/InitialRender.php:32
+   │ /home/user/Program/Saas/product-onebase/vendor/livewire/livewire/src/Features/SupportTesting/Render.php:24
+   │ /home/user/Program/Saas/product-onebase/vendor/livewire/livewire/src/Features/SupportTesting/InitialRender.php:31
+   │ /home/user/Program/Saas/product-onebase/vendor/livewire/livewire/src/Features/SupportTesting/InitialRender.php:17
+   │ /home/user/Program/Saas/product-onebase/vendor/livewire/livewire/src/Features/SupportTesting/Testable.php:50
+   │ /home/user/Program/Saas/product-onebase/vendor/livewire/livewire/src/LivewireManager.php:239
+   │ /home/user/Program/Saas/product-onebase/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php:363
+   │ /home/user/Program/Saas/product-onebase/tests/Feature/StrictFilamentCrudUiTest.php:39
+   │
+
+Strict Role Access (Tests\Feature\StrictRoleAccess)
+ ✘ Super admin can access system panel
+   │
+   │ Expected response status code [200] but received 302.
+   │ Failed asserting that 302 is identical to 200.
+   │
+   │ /home/user/Program/Saas/product-onebase/vendor/laravel/framework/src/Illuminate/Testing/TestResponseAssert.php:45
+   │ /home/user/Program/Saas/product-onebase/vendor/laravel/framework/src/Illuminate/Testing/TestResponse.php:175
+   │ /home/user/Program/Saas/product-onebase/vendor/laravel/framework/src/Illuminate/Testing/Concerns/AssertsStatusCodes.php:16
+   │ /home/user/Program/Saas/product-onebase/tests/Feature/StrictRoleAccessTest.php:15
+   │
+ ✘ Business user cannot access system panel
+   │
+   │ Expected response status code [403] but received 302.
+   │ Failed asserting that 302 is identical to 403.
+   │
+   │ /home/user/Program/Saas/product-onebase/vendor/laravel/framework/src/Illuminate/Testing/TestResponseAssert.php:45
+   │ /home/user/Program/Saas/product-onebase/vendor/laravel/framework/src/Illuminate/Testing/TestResponse.php:175
+   │ /home/user/Program/Saas/product-onebase/vendor/laravel/framework/src/Illuminate/Testing/Concerns/AssertsStatusCodes.php:141
+   │ /home/user/Program/Saas/product-onebase/tests/Feature/StrictRoleAccessTest.php:24
+   │
+ ✘ Business user can only see own gym data via api
+   │
+   │ Expected response status code [200] but received 403.
+   │ Failed asserting that 403 is identical to 200.
+   │
+   │ /home/user/Program/Saas/product-onebase/vendor/laravel/framework/src/Illuminate/Testing/TestResponseAssert.php:45
+   │ /home/user/Program/Saas/product-onebase/vendor/laravel/framework/src/Illuminate/Testing/TestResponse.php:175
+   │ /home/user/Program/Saas/product-onebase/vendor/laravel/framework/src/Illuminate/Testing/Concerns/AssertsStatusCodes.php:16
+   │ /home/user/Program/Saas/product-onebase/tests/Feature/StrictRoleAccessTest.php:34
+   │
+
+Strict Security Payload (Tests\Security\StrictSecurityPayload)
+ ✔ Unauthorized api access is rejected
+ ✘ Xss like payload in search is sanitized
+   │
+   │ Expected response status code [200] but received 403.
+   │ Failed asserting that 403 is identical to 200.
+   │
+   │ /home/user/Program/Saas/product-onebase/vendor/laravel/framework/src/Illuminate/Testing/TestResponseAssert.php:45
+   │ /home/user/Program/Saas/product-onebase/vendor/laravel/framework/src/Illuminate/Testing/TestResponse.php:175
+   │ /home/user/Program/Saas/product-onebase/vendor/laravel/framework/src/Illuminate/Testing/Concerns/AssertsStatusCodes.php:16
+   │ /home/user/Program/Saas/product-onebase/tests/Security/StrictSecurityPayloadTest.php:23
+   │
+ ✘ Sql like search does not cause error
+   │
+   │ Expected response status code [200] but received 403.
+   │ Failed asserting that 403 is identical to 200.
+   │
+   │ /home/user/Program/Saas/product-onebase/vendor/laravel/framework/src/Illuminate/Testing/TestResponseAssert.php:45
+   │ /home/user/Program/Saas/product-onebase/vendor/laravel/framework/src/Illuminate/Testing/TestResponse.php:175
+   │ /home/user/Program/Saas/product-onebase/vendor/laravel/framework/src/Illuminate/Testing/Concerns/AssertsStatusCodes.php:16
+   │ /home/user/Program/Saas/product-onebase/tests/Security/StrictSecurityPayloadTest.php:33
+   │
+ ✔ Negative expense amount is rejected
+
+Strict Tenant Isolation Edge (Tests\Feature\StrictTenantIsolationEdge)
+ ✘ User cannot see members from another gym
+   │
+   │ Expected response status code [200] but received 403.
+   │ Failed asserting that 403 is identical to 200.
+   │
+   │ /home/user/Program/Saas/product-onebase/vendor/laravel/framework/src/Illuminate/Testing/TestResponseAssert.php:45
+   │ /home/user/Program/Saas/product-onebase/vendor/laravel/framework/src/Illuminate/Testing/TestResponse.php:175
+   │ /home/user/Program/Saas/product-onebase/vendor/laravel/framework/src/Illuminate/Testing/Concerns/AssertsStatusCodes.php:16
+   │ /home/user/Program/Saas/product-onebase/tests/Feature/StrictTenantIsolationEdgeTest.php:25
+   │
+ ✔ Cross gym access is blocked on direct model query
+
+Subscription (Tests\Feature\Subscription)
+ ✔ Subscription feature files remain present after feature one
+
+Tenant Isolation (Tests\Feature\TenantIsolation)
+ ✔ Tenant isolation trait remains present after feature one
+ ✔ Feature four slug login preserves tenant isolation contract
+
+Validation (Tests\Feature\Validation)
+ ✔ Member and enquiry source validation allows only requested values
+ ✔ Feature two enquiry dob remains nullable in api validation
+
+ERRORS!
+Tests: 131, Assertions: 753, Errors: 1, Failures: 6, PHPUnit Deprecations: 13.
