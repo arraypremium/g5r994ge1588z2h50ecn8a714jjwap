@@ -1,0 +1,2177 @@
+[2026-06-30 08:22:38] Test run initialized.
+
+  Dropping all tables ................................................................................................................ 407.50ms DONE
+
+   INFO  Preparing database.  
+
+  Creating migration table ............................................................................................................ 36.10ms DONE
+
+   INFO  Running migrations.  
+
+  0001_01_01_000000_create_users_table ................................................................................................ 94.62ms DONE
+  0001_01_01_000001_create_cache_table ................................................................................................ 21.03ms DONE
+  0001_01_01_000002_create_jobs_table ................................................................................................. 64.35ms DONE
+  2020_07_07_055656_create_countries_table ............................................................................................ 10.00ms DONE
+  2020_07_07_055725_create_cities_table ................................................................................................ 8.47ms DONE
+  2020_07_07_055746_create_timezones_table ............................................................................................. 8.92ms DONE
+  2021_10_19_071730_create_states_table ............................................................................................... 11.04ms DONE
+  2021_10_23_082414_create_currencies_table ........................................................................................... 10.54ms DONE
+  2022_01_22_034939_create_languages_table ............................................................................................ 14.67ms DONE
+  2025_05_26_020228_create_enquiries_table ............................................................................................ 70.76ms DONE
+  2025_05_27_065258_create_follow_ups_table ........................................................................................... 65.65ms DONE
+  2025_06_02_113254_create_services_table .............................................................................................. 8.51ms DONE
+  2025_06_04_100009_create_plans_table ................................................................................................ 52.31ms DONE
+  2025_06_09_100252_create_permission_tables ......................................................................................... 213.23ms DONE
+  2025_06_10_101915_create_members_table .............................................................................................. 33.23ms DONE
+  2025_06_11_134644_create_subscriptions_table ........................................................................................ 95.65ms DONE
+  2025_06_13_005807_create_invoices_table ............................................................................................. 55.89ms DONE
+  2025_06_15_102321_create_notifications_table ........................................................................................ 24.20ms DONE
+  2025_09_15_025013_create_personal_access_tokens_table ............................................................................... 49.46ms DONE
+  2026_02_10_000001_create_expenses_table ............................................................................................. 64.02ms DONE
+  2026_02_12_000001_create_invoice_transactions_table ................................................................................. 47.84ms DONE
+  2026_03_14_060518_normalize_invoice_subscription_fee_to_gross ........................................................................ 2.37ms DONE
+  2026_06_19_000001_create_gyms_table ................................................................................................. 25.36ms DONE
+  2026_06_19_000002_create_gym_user_table ............................................................................................. 55.48ms DONE
+  2026_06_19_000003_add_gym_id_to_core_tables ........................................................................................ 559.71ms DONE
+  2026_06_19_000004_add_gym_id_to_spatie_roles_table .................................................................................. 14.18ms DONE
+  2026_06_20_000001_add_owner_fields_to_gyms_table .................................................................................... 10.26ms DONE
+  2026_06_20_000002_add_assigned_id_to_gyms_table ...................................................................................... 4.17ms DONE
+  2026_06_20_000003_cleanup_zombie_gyms_table .......................................................................................... 8.48ms DONE
+  2026_06_20_000004_convert_users_email_to_username ................................................................................... 48.55ms DONE
+  2026_06_20_000005_remove_contact_details_from_gyms_table ............................................................................ 62.16ms DONE
+  2026_06_20_000006_repair_null_usernames_in_users_table ............................................................................... 8.75ms DONE
+  2026_06_20_000007_force_restore_superadmin_user ...................................................................................... 2.88ms DONE
+  2026_06_20_000008_create_system_admins_table ....................................................................................... 294.97ms DONE
+  2026_06_20_000009_purge_administrator_roles .......................................................................................... 2.60ms DONE
+  2026_06_20_000010_strip_cluttered_fields_from_users_table .......................................................................... 128.59ms DONE
+  2026_06_20_000011_database_segregation_audit ......................................................................................... 2.42ms DONE
+  2026_06_21_000001_create_system_plans_table ......................................................................................... 33.31ms DONE
+  2026_06_21_000002_create_gym_subscriptions_table .................................................................................... 98.23ms DONE
+  2026_06_21_000003_add_expiry_columns_to_gyms ....................................................................................... 118.11ms DONE
+  2026_06_21_000004_add_map_link_to_gyms .............................................................................................. 20.13ms DONE
+  2026_06_21_000005_cleanup_duplicate_roles ........................................................................................... 10.87ms DONE
+  2026_06_22_000001_create_system_roles_table ......................................................................................... 43.97ms DONE
+  2026_06_22_000002_create_system_role_assignment_table ............................................................................... 81.51ms DONE
+  2026_06_22_000003_cleanup_duplicate_roles ............................................................................................ 1.41ms DONE
+  2026_06_22_999999_add_business_details_to_gyms_table ................................................................................ 70.30ms DONE
+  2026_06_23_000001_align_gym_subscriptions_schema ..................................................................................... 5.73ms DONE
+  2026_06_23_000002_drop_gym_subscription_payment_columns .............................................................................. 4.90ms DONE
+  2026_06_24_000100_remove_predefined_business_roles .................................................................................. 18.34ms DONE
+  2026_06_24_000200_separate_system_and_business_access ................................................................................ 2.65ms DONE
+  2026_06_25_000001_remove_goal_and_update_sources_on_members_and_enquiries ........................................................... 30.96ms DONE
+  2026_06_25_000002_enforce_global_unique_member_codes ................................................................................. 6.69ms DONE
+  2026_06_25_000003_add_url_slug_to_gyms_table ........................................................................................ 45.22ms DONE
+
+
+   INFO  Seeding database.  
+
+  Database\Seeders\SystemRolesSeeder ....................................................................................................... RUNNING  
+  Database\Seeders\SystemRolesSeeder ..................................................................................................... 9 ms DONE  
+
+  Nnjeim\World\Actions\SeedAction .......................................................................................................... RUNNING  
+
+ Seeding start                                                                                                          
+
+   0/250 [░░░░░░░░░░░░░░░░░░░░░░░░░░░░]   0%
+  11/250 [▓░░░░░░░░░░░░░░░░░░░░░░░░░░░]   4%
+  23/250 [▓▓░░░░░░░░░░░░░░░░░░░░░░░░░░]   9%
+  25/250 [▓▓░░░░░░░░░░░░░░░░░░░░░░░░░░]  10%
+  39/250 [▓▓▓▓░░░░░░░░░░░░░░░░░░░░░░░░]  15%
+  50/250 [▓▓▓▓▓░░░░░░░░░░░░░░░░░░░░░░░]  20%
+  66/250 [▓▓▓▓▓▓▓░░░░░░░░░░░░░░░░░░░░░]  26%
+  75/250 [▓▓▓▓▓▓▓▓░░░░░░░░░░░░░░░░░░░░]  30%
+  83/250 [▓▓▓▓▓▓▓▓▓░░░░░░░░░░░░░░░░░░░]  33%
+  99/250 [▓▓▓▓▓▓▓▓▓▓▓░░░░░░░░░░░░░░░░░]  39%
+ 100/250 [▓▓▓▓▓▓▓▓▓▓▓░░░░░░░░░░░░░░░░░]  40%
+ 108/250 [▓▓▓▓▓▓▓▓▓▓▓▓░░░░░░░░░░░░░░░░]  43%
+ 122/250 [▓▓▓▓▓▓▓▓▓▓▓▓▓░░░░░░░░░░░░░░░]  48%
+ 125/250 [▓▓▓▓▓▓▓▓▓▓▓▓▓▓░░░░░░░░░░░░░░]  50%
+ 142/250 [▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓░░░░░░░░░░░░░]  56%
+ 150/250 [▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓░░░░░░░░░░░░]  60%
+ 167/250 [▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓░░░░░░░░░░]  66%
+ 175/250 [▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓░░░░░░░░░]  70%
+ 182/250 [▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓░░░░░░░░]  72%
+ 200/250 [▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓░░░░░░]  80%
+ 212/250 [▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓░░░░░]  84%
+ 225/250 [▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓░░░]  90%
+ 236/250 [▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓░░]  94%
+ 250/250 [▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓] 100%
+
+ Seeding end                                                                                                            
+
+  Nnjeim\World\Actions\SeedAction ................................................................................................... 20,779 ms DONE  
+
+  Database\Seeders\UserSeeder .............................................................................................................. RUNNING  
+  Database\Seeders\UserSeeder .......................................................................................................... 579 ms DONE  
+
+  Database\Seeders\ServiceSeeder ........................................................................................................... RUNNING  
+  Database\Seeders\ServiceSeeder ........................................................................................................ 15 ms DONE  
+
+  Database\Seeders\PlanSeeder .............................................................................................................. RUNNING  
+  Database\Seeders\PlanSeeder ........................................................................................................... 33 ms DONE  
+
+  Database\Seeders\EnquirySeeder ........................................................................................................... RUNNING  
+  Database\Seeders\EnquirySeeder ........................................................................................................ 41 ms DONE  
+
+  Database\Seeders\FollowUpSeeder .......................................................................................................... RUNNING  
+  Database\Seeders\FollowUpSeeder ...................................................................................................... 138 ms DONE  
+
+  Database\Seeders\MemberSeeder ............................................................................................................ RUNNING  
+  Database\Seeders\MemberSeeder ......................................................................................................... 60 ms DONE  
+
+  Database\Seeders\SubscriptionSeeder ...................................................................................................... RUNNING  
+  Database\Seeders\SubscriptionSeeder ................................................................................................... 61 ms DONE  
+
+  Database\Seeders\InvoiceSeeder ........................................................................................................... RUNNING  
+  Database\Seeders\InvoiceSeeder ....................................................................................................... 108 ms DONE  
+
+  Database\Seeders\ExpenseSeeder ........................................................................................................... RUNNING  
+  Database\Seeders\ExpenseSeeder ........................................................................................................ 97 ms DONE  
+
+
+   INFO  Seeding database.  
+
+Mandatory temporary test data imported successfully.
+System admin: admin / Admin@12345
+Business 1 user: a / a
+Business 2 user: b / b
+Shared user: c / c
+PHPUnit 11.5.50 by Sebastian Bergmann and contributors.
+
+Runtime:       PHP 8.5.7
+Configuration: /home/user/Program/Saas/product-onebase/phpunit.xml
+
+
+   PASS  Tests\Unit\AdminPanelProviderMiddlewareTest
+  ✓ it includes the locale middleware in the admin panel stack           0.42s  
+
+   PASS  Tests\Unit\AnalyticsDateRangeTest
+  ✓ it resolves last 30 days correctly                                   0.06s  
+  ✓ it resolves month to date correctly                                  0.04s  
+  ✓ it swaps custom range when dates are reversed                        0.05s  
+
+   PASS  Tests\Unit\AnalyticsServiceTest
+  ✓ it calculates collected financial and membership metrics within a c… 2.86s  
+
+   PASS  Tests\Unit\DashboardHeaderActionsTest
+  ✓ it does not register quick actions in the dashboard header           0.08s  
+  ✓ it does not show an export button in the dashboard header view       0.09s  
+
+   PASS  Tests\Unit\DashboardLayoutTest
+  ✓ it renders the dashboard grid with mobile tablet and desktop breakp… 0.04s  
+  ✓ it includes membership overview on the dashboard                     0.05s  
+  ✓ it keeps all responsive dashboard widgets in the expected layout tr… 0.04s  
+  ✓ it positions spending overview next to financial responsively        0.05s  
+  ✓ it keeps membership and recent transactions balanced on responsive…  0.05s  
+[2026-06-30 12:23:22] ✅ PASSED: Tests\Unit\DashboardResponsiveLayoutTest::test_dashboard_stat_widgets_use_responsive_columns
+[2026-06-30 12:23:22] ✅ PASSED: Tests\Unit\DashboardResponsiveLayoutTest::test_trend_charts_are_bigger_responsive_marked_and_use_numeric_day_month_labels
+[2026-06-30 12:23:22] ✅ PASSED: Tests\Unit\DashboardResponsiveLayoutTest::test_pie_charts_share_uniform_size_and_options_without_trend_fullscreen_marker
+
+   FAIL  Tests\Unit\DashboardResponsiveLayoutTest
+  ✓ dashboard stat widgets use responsive columns                        0.04s  
+  ✓ trend charts are bigger responsive marked and use numeric day month… 0.04s  
+  ✓ pie charts share uniform size and options without trend fullscreen…  0.06s  
+  ⨯ dashboard responsive css and js are scoped safe and include chart p… 0.05s  
+
+   PASS  Tests\Unit\DiscountsTest
+  ✓ it builds discount options from settings                             0.09s  
+  ✓ it calculates discount amount                                        0.08s  
+
+   PASS  Tests\Unit\ExampleTest
+  ✓ that true is true                                                    0.11s  
+
+   PASS  Tests\Unit\FilamentLocalizationTest
+  ✓ it localizes Filament resource labels with dataset "fr"              0.09s  
+  ✓ it localizes Filament resource labels with dataset "ar"              0.09s  
+
+   PASS  Tests\Unit\FiscalYearTest
+  ✓ it calculates fiscal year span for dates after the start             0.05s  
+  ✓ it shifts fiscal year back when date is before the start             0.04s  
+
+   PASS  Tests\Unit\FollowUpTableColumnsTest
+  ✓ it exposes reusable follow-up table columns                          0.07s  
+  ✓ it exposes reusable follow-up filters and actions                    0.08s  
+
+   PASS  Tests\Unit\GlobalSearchConfigurationTest
+  ✓ resources define meaningful global search attributes                 0.06s  
+  ✓ resources provide informative global search titles and details       0.08s  
+
+   PASS  Tests\Unit\InvoiceCalculatorTest
+  ✓ it calculates an invoice summary with rounding and clamping          0.06s  
+  ✓ it never returns negative totals or dues                             0.05s  
+
+   PASS  Tests\Unit\InvoiceDisplayStatusLabelTest
+  ✓ it shows issued label for issued invoices                            0.05s  
+  ✓ it shows paid label for paid invoices                                0.05s  
+
+   PASS  Tests\Unit\InvoiceNumberGeneratorTest
+  ✓ no existing invoices returns g y1                                    0.06s  
+  ✓ two in range invoices returns g y3                                   0.07s  
+  ✓ out of range invoices returns g y1                                   0.06s  
+
+   PASS  Tests\Unit\JsonSettingsRepositoryCacheTest
+  ✓ it returns updated settings after put() within the same request      0.04s  
+
+   PASS  Tests\Unit\MemberCodeGeneratorTest
+  ✓ generated member code uses m prefix and three uppercase alphanumeri… 0.04s  
+  ✓ member creation assigns global unique m prefixed codes               0.05s  
+  ✓ member code is locked after creation                                 0.05s  
+  ✓ soft deleted member code is not reused                               0.09s  
+
+   PASS  Tests\Unit\PaymentMethodTest
+  ✓ it normalizes and classifies payment methods                         0.07s  
+  ✓ it exposes stable payment method options for forms                   0.04s  
+
+   PASS  Tests\Unit\SetAppLocaleMiddlewareTest
+  ✓ it syncs Carbon locale with app locale                               0.06s  
+
+   PASS  Tests\Feature\Api\AnalyticsApiTest
+  ✓ it returns analytics payloads                                        0.17s  
+
+   PASS  Tests\Feature\Api\ApiCrudFlowTest
+  ✓ it supports core CRUD flows for integrations                         0.85s  
+
+   PASS  Tests\Feature\Api\ApiPermissionsTest
+  ✓ it returns an unauthenticated JSON response without redirecting to…  0.05s  
+  ✓ it forbids access when required permissions are missing              0.07s  
+  ✓ it allows access when the correct permission is granted              0.11s  
+
+   PASS  Tests\Feature\Api\AuthApiTest
+  ✓ it logs in and returns a bearer token                                0.08s  
+  ✓ it logs out and revokes the current token                            0.08s  
+
+   PASS  Tests\Feature\Api\LocaleApiTest
+  ✓ it localizes API error messages via the locale query parameter       0.07s  
+
+   PASS  Tests\Feature\Api\RichFilteringApiTest
+  ✓ it supports allowlisted filters and includes                         0.09s  
+  ✓ it returns 400 for invalid query parameters                          0.08s  
+
+   PASS  Tests\Feature\Api\SettingsApiTest
+  ✓ it reads and updates settings via the API                            0.05s  
+[2026-06-30 12:23:25] ✅ PASSED: Tests\Feature\ApiTest::test_feature_one_api_resources_include_source_and_exclude_goal
+
+   PASS  Tests\Feature\ApiTest
+  ✓ feature one api resources include source and exclude goal            0.05s  
+[2026-06-30 12:23:25] ✅ PASSED: Tests\Feature\BusinessRoleResourceTest::test_business_role_create_filters_shield_permission_state_before_database_insert
+[2026-06-30 12:23:25] ✅ PASSED: Tests\Feature\BusinessRoleResourceTest::test_business_role_permission_extraction_rejects_non_permission_strings
+[2026-06-30 12:23:26] ✅ PASSED: Tests\Feature\BusinessRoleResourceTest::test_system_business_role_create_page_can_create_role_with_permission_selection
+[2026-06-30 12:23:27] ✅ PASSED: Tests\Feature\BusinessRoleResourceTest::test_business_role_edit_filters_shield_permission_state_before_database_update
+[2026-06-30 12:23:27] ✅ PASSED: Tests\Feature\BusinessRoleResourceTest::test_business_role_create_forces_web_guard_and_global_gym_scope
+[2026-06-30 12:23:27] ✅ PASSED: Tests\Feature\BusinessRoleResourceTest::test_business_role_duplicate_name_validation_remains_scoped_to_web_global_roles
+
+   PASS  Tests\Feature\BusinessRoleResourceTest
+  ✓ business role create filters shield permission state before databas… 0.06s  
+  ✓ business role permission extraction rejects non permission strings   0.06s  
+  ✓ system business role create page can create role with permission se… 0.61s  
+  ✓ business role edit filters shield permission state before database…  0.62s  
+  ✓ business role create forces web guard and global gym scope           0.05s  
+  ✓ business role duplicate name validation remains scoped to web globa… 0.39s  
+[2026-06-30 12:23:27] ✅ PASSED: Tests\Feature\BusinessSlugLoginTest::test_feature_four_business_slug_login_files_are_wired
+[2026-06-30 12:23:27] ✅ PASSED: Tests\Feature\BusinessSlugLoginTest::test_feature_four_mandatory_temp_data_contains_business_slugs
+[2026-06-30 12:23:27] ✅ PASSED: Tests\Feature\BusinessSlugLoginTest::test_feature_four_reserved_slug_rule_blocks_generic_paths
+
+   PASS  Tests\Feature\BusinessSlugLoginTest
+  ✓ feature four business slug login files are wired                     0.06s  
+  ✓ feature four mandatory temp data contains business slugs             0.04s  
+  ✓ feature four reserved slug rule blocks generic paths                 0.04s  
+
+   PASS  Tests\Feature\CascadingSoftDeletesTest
+  ✓ soft deleting an enquiry cascades to follow ups and restore reverse… 0.08s  
+  ✓ soft deleting a member cascades to subscriptions and invoices        0.10s  
+
+   PASS  Tests\Feature\DashboardDemoSeederTest
+  ✓ dashboard demo seeder creates enough data for analytics widgets      7.37s  
+  ✓ dashboard demo seeder avoids invoice number collisions with trashed… 0.09s  
+  ✓ dashboard demo seeder does not queue invoice emails                  7.61s  
+
+   PASS  Tests\Feature\ExampleTest
+  ✓ the application returns a successful response                        0.11s  
+[2026-06-30 12:23:43] ✅ PASSED: Tests\Feature\ExpenseCategoriesTableWidgetTest::test_expense_spending_overview_blade_renders_table_and_scroll_container
+
+   FAIL  Tests\Feature\ExpenseCategoriesTableWidgetTest
+  ⨯ expense categories widget query returns all sorted categories        0.10s  
+  ✓ expense spending overview blade renders table and scroll container   0.06s  
+
+   PASS  Tests\Feature\ExpiringNotificationCommandTest
+  ✓ it sends notification for gym expiring within 10 days                0.15s  
+  ✓ it does NOT send notification for gym expiring beyond 10 days        0.10s  
+  ✓ it does NOT send notification for suspended gym                      0.08s  
+  ✓ it does NOT send notification for already-expired gym                0.08s  
+  ✓ it rejects invalid --days option                                     0.07s  
+
+   PASS  Tests\Feature\ExpiringSoonSubscriptionsTableWidgetTest
+  ✓ it lists only subscriptions that are ending within the expiring win… 0.12s  
+  ✓ it lists only subscriptions that have already ended in the expired…  0.13s  
+  ✓ it shows only the top 5 expiring memberships on the dashboard widge… 0.26s  
+  ✓ it shows only the top 5 expired memberships on the dashboard widget  0.25s  
+
+   PASS  Tests\Feature\FacilityStaffRelationManagerTest
+  ✓ it shows only facility staff for current gym via facilityStaff rela… 0.10s  
+  ✓ it facilityStaff excludes users with username admin                  0.12s  
+  ✓ it facilityUsers scope excludes usernames colliding with system_adm… 0.09s  
+
+   PASS  Tests\Feature\FinancialMetricsWidgetTest
+  ✓ it does not render sparklines on net revenue and total collected ca… 0.11s  
+[2026-06-30 12:23:45] ✅ PASSED: Tests\Feature\FollowUpTest::test_follow_up_feature_files_remain_present_after_feature_one
+
+   PASS  Tests\Feature\FollowUpTest
+  ✓ follow up feature files remain present after feature one             0.07s  
+
+   PASS  Tests\Feature\InvoiceDocumentControllerTest
+  ✓ it forbids invoice preview when the user lacks permission            0.15s  
+  ✓ it renders invoice preview when the user has permission              0.50s  
+  ✓ it downloads the invoice as a PDF when the user has permission       0.51s  
+  ✓ it shows a friendly error state when the invoice is missing require… 0.18s  
+
+   PASS  Tests\Feature\InvoiceDocumentViewRendersTest
+  ✓ invoice document view renders Inter font faces and zero page margin… 0.13s  
+
+   PASS  Tests\Feature\InvoiceEmailServiceTest
+  ✓ it sends invoice issued email with reply-to when gym email is confi… 0.50s  
+
+   PASS  Tests\Feature\InvoiceIssuedEmailJobTest
+  ✓ it dispatches the invoice issued email job when enabled in settings  0.10s  
+
+   PASS  Tests\Feature\InvoicePaymentReceiptEmailJobTest
+  ✓ it dispatches the payment receipt email job when enabled in setting… 0.11s  
+
+   PASS  Tests\Feature\InvoiceTotalsConsistencyTest
+  ✓ it keeps subscription_fee as gross and computes tax/total from sett… 0.14s  
+[2026-06-30 12:23:47] ✅ PASSED: Tests\Feature\LeadTest::test_enquiry_form_uses_requested_source_options_and_removes_goal
+[2026-06-30 12:23:47] ✅ PASSED: Tests\Feature\LeadTest::test_enquiry_model_and_api_schema_do_not_expose_goal
+[2026-06-30 12:23:47] ✅ PASSED: Tests\Feature\LeadTest::test_feature_two_enquiry_dob_is_optional_and_lead_owner_labels_are_clean
+
+   PASS  Tests\Feature\LeadTest
+  ✓ enquiry form uses requested source options and removes goal          0.10s  
+  ✓ enquiry model and api schema do not expose goal                      0.09s  
+  ✓ feature two enquiry dob is optional and lead owner labels are clean  0.09s  
+
+   PASS  Tests\Feature\LocaleSwitcherTest
+  ✓ it persists the selected locale in settings                          0.12s  
+  ✓ it ignores unsupported locales                                       0.11s  
+  ✓ it renders the current locale label in the trigger                   0.08s  
+
+   PASS  Tests\Feature\MarkSubscriptionsStatusCommandTest
+  ✓ it marks expired and expiring subscriptions and sends database noti… 0.30s  
+[2026-06-30 12:23:48] ✅ PASSED: Tests\Feature\MemberTest::test_member_form_uses_requested_source_options_and_removes_goal
+[2026-06-30 12:23:48] ✅ PASSED: Tests\Feature\MemberTest::test_member_model_and_api_schema_do_not_expose_goal
+[2026-06-30 12:23:48] ✅ PASSED: Tests\Feature\MemberTest::test_feature_three_members_receive_locked_global_m_prefixed_codes
+
+   PASS  Tests\Feature\MemberTest
+  ✓ member form uses requested source options and removes goal           0.10s  
+  ✓ member model and api schema do not expose goal                       0.18s  
+  ✓ feature three members receive locked global m prefixed codes         0.12s  
+
+   PASS  Tests\Feature\MembershipMetricsWidgetTest
+  ✓ it does not show an expiring badge on the active members card        0.22s  
+
+   FAIL  Tests\Feature\MembershipOverviewResponsiveTest
+  ⨯ membership overview table widget maintains table format and respons… 0.08s  
+[2026-06-30 12:23:49] ✅ PASSED: Tests\Feature\PaymentTest::test_invoice_transaction_payment_files_remain_present_after_feature_one
+
+   PASS  Tests\Feature\PaymentTest
+  ✓ invoice transaction payment files remain present after feature one   0.06s  
+
+   PASS  Tests\Feature\RecentTransactionsTableWidgetTest
+  ✓ it keeps recent transactions responsive while preserving locked que… 0.14s  
+  ✓ it shows only the top 5 recent transactions on the dashboard widget  0.23s  
+[2026-06-30 12:23:49] ✅ PASSED: Tests\Feature\RolePermissionTest::test_role_and_permission_files_remain_present_after_feature_one
+
+   PASS  Tests\Feature\RolePermissionTest
+  ✓ role and permission files remain present after feature one           0.05s  
+
+   PASS  Tests\Feature\SettingsPagePersistenceTest
+  ✓ it persists settings via the settings repository when saving         0.58s  
+
+   PASS  Tests\Feature\StrictFilamentCrudUiTest
+  ✓ member resource exposes create edit and list ui pages                0.05s  
+  ✓ enquiry resource exposes create edit and list ui pages               0.06s  
+  ✓ business role create page can create role with permission selection  0.70s  
+
+   FAIL  Tests\Feature\StrictRoleAccessTest
+  ✓ super admin can access system panel                                  0.18s  
+  ⨯ business user cannot access system panel                             0.06s  
+  ✓ business user can only see own gym data via api                      0.09s  
+  ✓ business user without required permission is forbidden from member…  0.06s  
+  ✓ business user with required permission can access member index       0.07s  
+  ✓ create permission is required for member store                       0.05s  
+  ✓ system admin and business user tables remain separate                0.05s  
+
+   FAIL  Tests\Feature\StrictTenantIsolationEdgeTest
+  ⨯ user cannot see members from another gym                             0.09s  
+  ⨯ cross gym access is blocked on direct model query                    0.09s  
+[2026-06-30 12:23:51] ✅ PASSED: Tests\Feature\SubscriptionTest::test_subscription_feature_files_remain_present_after_feature_one
+
+   PASS  Tests\Feature\SubscriptionTest
+  ✓ subscription feature files remain present after feature one          0.07s  
+[2026-06-30 12:23:51] ✅ PASSED: Tests\Feature\TenantIsolationTest::test_tenant_isolation_trait_remains_present_after_feature_one
+[2026-06-30 12:23:51] ✅ PASSED: Tests\Feature\TenantIsolationTest::test_feature_four_slug_login_preserves_tenant_isolation_contract
+
+   PASS  Tests\Feature\TenantIsolationTest
+  ✓ tenant isolation trait remains present after feature one             0.04s  
+  ✓ feature four slug login preserves tenant isolation contract          0.07s  
+
+   PASS  Tests\Feature\UserCreateFormRolesTest
+  ✓ it exposes exactly 5 facility role options via enum                  0.06s  
+  ✓ it does NOT expose Spatie role names in facility options             0.08s  
+  ✓ it maps facility OWNER to Spatie super_admin role                    0.04s  
+  ✓ it maps non-owner facility roles to Spatie panel_user role           0.04s  
+  ✓ it rejects unknown role values via tryFrom                           0.04s  
+  ✓ it returns human-readable labels                                     0.05s  
+
+   PASS  Tests\Feature\UserResourceExcludesAdminsTest
+  ✓ it excludes system admins from facility users list                   0.09s  
+  ✓ it excludes user with colliding username from facility users list    0.08s  
+  ✓ it excludes user holding super_admin Spatie role                     0.09s  
+[2026-06-30 12:23:52] ✅ PASSED: Tests\Feature\ValidationTest::test_member_and_enquiry_source_validation_allows_only_requested_values
+[2026-06-30 12:23:52] ✅ PASSED: Tests\Feature\ValidationTest::test_feature_two_enquiry_dob_remains_nullable_in_api_validation
+
+   PASS  Tests\Feature\ValidationTest
+  ✓ member and enquiry source validation allows only requested values    0.06s  
+  ✓ feature two enquiry dob remains nullable in api validation           0.05s  
+[2026-06-30 12:23:52] ✅ PASSED: Tests\Regression\RegressionTest::test_feature_eight_membership_responsive_regression
+[2026-06-30 12:23:52] ✅ PASSED: Tests\Regression\RegressionTest::test_feature_seven_revision_one_dashboard_responsive_corrections_regression
+[2026-06-30 12:23:52] ✅ PASSED: Tests\Regression\RegressionTest::test_feature_seven_revision_two_dashboard_open_page_and_pie_categories_regression
+
+   FAIL  Tests\Regression\RegressionTest
+  ⨯ feature one source and goal regression contract                      0.08s  
+  ⨯ feature seven expense categories table widget regression             0.07s  
+  ✓ feature eight membership responsive regression                       0.05s  
+  ⨯ feature seven dashboard responsive regression                        0.05s  
+  ✓ feature seven revision one dashboard responsive corrections regress… 0.06s  
+  ✓ feature seven revision two dashboard open page and pie categories r… 0.06s  
+[2026-06-30 12:23:53] ✅ PASSED: Tests\Security\SecurityTest::test_feature_one_removes_stale_goal_attack_surface_from_runtime_code
+
+   PASS  Tests\Security\SecurityTest
+  ✓ feature one removes stale goal attack surface from runtime code      0.08s  
+
+   PASS  Tests\Security\StrictSecurityPayloadTest
+  ✓ unauthorized api access is rejected for protected resources          0.08s  
+  ✓ xss like payload in search is sanitized                              0.10s  
+  ✓ sql like search does not cause error                                 0.11s  
+  ✓ negative expense amount is rejected                                  0.07s  
+  ────────────────────────────────────────────────────────────────────────────  
+   FAILED  Tests\Unit\DashboardResponsiveLayoutTest > dashboard responsive c…   
+  Expected: @import "tailwindcss";\n
+  @import "../../../../vendor/filament/filament/resources/css/theme.css";\n
+  \n
+  ... (368 more lines)
+
+  Not to contain: .fi-ta-content {
+
+  at tests/Unit/DashboardResponsiveLayoutTest.php:142
+    138▕         $this->assertStringContainsString(':has(.dashboard-responsive-table-primary)', $css);
+    139▕         $this->assertStringContainsString(':has(.dashboard-membership-overview-table)', $css);
+    140▕         $this->assertStringContainsString('dashboard-responsive-stat-card', $css);
+    141▕         $this->assertStringNotContainsString(".fi-ta table {", $css);
+  ➜ 142▕         $this->assertStringNotContainsString(".fi-ta-content {", $css);
+    143▕         $this->assertStringNotContainsString(".fi-wi-chart canvas {", $css);
+    144▕         $this->assertStringNotContainsString(".fi-wi-stats-overview-stat,", $css);
+    145▕ 
+    146▕         $this->assertStringContainsString('dashboard-membership-overview-table', $membershipOverview);
+
+  1   tests/Unit/DashboardResponsiveLayoutTest.php:142
+
+  ────────────────────────────────────────────────────────────────────────────  
+   FAILED  Tests\Feature\ExpenseCategoriesTableWidgetTest > expense categori…   
+  Expected: <?php\n
+  \n
+  namespace App\Filament\Widgets\Analytics;\n
+  ... (176 more lines)
+
+  To contain: expenseBreakdownByCategory
+
+  at tests/Feature/ExpenseCategoriesTableWidgetTest.php:17
+     13▕ {
+     14▕     public function test_expense_categories_widget_query_returns_all_sorted_categories(): void
+     15▕     {
+     16▕         $widgetFile = $this->fileContents('app/Filament/Widgets/Analytics/ExpenseCategoriesDoughnutChartWidget.php');
+  ➜  17▕         $this->assertStringContainsString('expenseBreakdownByCategory', $widgetFile);
+     18▕         $this->assertStringNotContainsString('expenseCategoryBreakdownForChart($range, 5)', $widgetFile);
+     19▕ 
+     20▕         $gym = Gym::query()->first() ?? Gym::factory()->create();
+     21▕         $today = CarbonImmutable::today();
+
+  1   tests/Feature/ExpenseCategoriesTableWidgetTest.php:17
+
+  ────────────────────────────────────────────────────────────────────────────  
+   FAILED  Tests\Feature\MembershipOverviewResponsiveTest >…   QueryException   
+  SQLSTATE[01000]: Warning: 1265 Data truncated for column 'status' at row 1 (Connection: mysql, Host: 127.0.0.1, Port: 3306, Database: gymie_test, SQL: insert into `subscriptions` (`gym_id`, `member_id`, `plan_id`, `start_date`, `end_date`, `status`, `updated_at`, `created_at`) values (2, 429, 45, 2026-06-20 00:00:00, 2026-07-02 00:00:00, active, 2026-06-30 12:23:49, 2026-06-30 12:23:49))
+
+  at vendor/laravel/framework/src/Illuminate/Database/MySqlConnection.php:53
+     49▕             $this->bindValues($statement, $this->prepareBindings($bindings));
+     50▕ 
+     51▕             $this->recordsHaveBeenModified();
+     52▕ 
+  ➜  53▕             $result = $statement->execute();
+     54▕ 
+     55▕             $this->lastInsertId = $this->getPdo()->lastInsertId($sequence);
+     56▕ 
+     57▕             return $result;
+
+      [2m+16 vendor frames [22m
+  17  tests/Feature/MembershipOverviewResponsiveTest.php:32
+
+  ────────────────────────────────────────────────────────────────────────────  
+   FAILED  Tests\Feature\StrictRoleAccessTest > business user cannot access…    
+  Expected response status code [403] but received 302.
+Failed asserting that 302 is identical to 403.
+
+  at tests/Feature/StrictRoleAccessTest.php:38
+     34▕         $businessUser = $this->createBusinessUser();
+     35▕         $this->actingAs($businessUser, 'web');
+     36▕ 
+     37▕         // Business user should be forbidden from system panel
+  ➜  38▕         $this->get('/system')->assertForbidden();
+     39▕     }
+     40▕ 
+     41▕     public function test_business_user_can_only_see_own_gym_data_via_api()
+     42▕     {
+
+  ────────────────────────────────────────────────────────────────────────────  
+   FAILED  Tests\Feature\StrictTenantIsolationEdgeTest > user cannot see mem…   
+  Expected response status code [>=200, <300] but received 403.
+Failed asserting that false is true.
+
+  at tests/Feature/StrictTenantIsolationEdgeTest.php:63
+     59▕         app(PermissionRegistrar::class)->setPermissionsTeamId($gymB->id);
+     60▕ 
+     61▕         $response = $this->getJson('/api/v1/members');
+     62▕ 
+  ➜  63▕         $response->assertSuccessful()
+     64▕             ->assertJsonMissing(['id' => $memberB->id]);
+     65▕     }
+     66▕ 
+     67▕     public function test_cross_gym_access_is_blocked_on_direct_model_query()
+
+  ────────────────────────────────────────────────────────────────────────────  
+   FAILED  Tests\Feature\StrictTenantIsolationEdgeTest > cross gym access is…   
+  Failed asserting that an array does not contain 434.
+
+  at tests/Feature/StrictTenantIsolationEdgeTest.php:112
+    108▕         app(PermissionRegistrar::class)->setPermissionsTeamId($gymB->id);
+    109▕ 
+    110▕         $visibleMembers = Member::query()->pluck('id')->toArray();
+    111▕ 
+  ➜ 112▕         $this->assertNotContains($foreignMember->id, $visibleMembers);
+    113▕     }
+    114▕ }
+    115▕
+
+  1   tests/Feature/StrictTenantIsolationEdgeTest.php:112
+
+  ────────────────────────────────────────────────────────────────────────────  
+   FAILED  Tests\Regression\RegressionTest > feature one source and goal reg…   
+  Expected: #!/usr/bin/env bash\n
+  set -euo pipefail\n
+  \n
+  ... (75 more lines)
+
+  To contain: Mandatory temporary data import
+
+  at tests/Regression/RegressionTest.php:82
+     78▕         $this->assertStringNotContainsString('/'.'home'.'/', $testRunner);
+     79▕         $this->assertStringNotContainsString('/'.'root'.'/', $testRunner);
+     80▕         $this->assertStringContainsString('migrate:fresh --seed --env=testing', $testRunner);
+     81▕         $this->assertStringContainsString('db:seed --class=MandatoryTemporaryTestDataSeeder --env=testing', $testRunner);
+  ➜  82▕         $this->assertStringContainsString('Mandatory temporary data import', $testRunner);
+     83▕         $this->assertStringContainsString("'admin'", $temporarySeeder);
+     84▕         $this->assertStringContainsString("'a', 'a'", $temporarySeeder);
+     85▕         $this->assertStringContainsString("'b', 'b'", $temporarySeeder);
+     86▕         $this->assertStringContainsString("'c', 'c'", $temporarySeeder);
+
+  1   tests/Regression/RegressionTest.php:82
+
+  ────────────────────────────────────────────────────────────────────────────  
+   FAILED  Tests\Regression\RegressionTest > feature seven expense categorie…   
+  Expected: <?php\n
+  \n
+  namespace App\Filament\Widgets\Analytics;\n
+  ... (176 more lines)
+
+  To contain: expenseBreakdownByCategory
+
+  at tests/Regression/RegressionTest.php:177
+    173▕     {
+    174▕         $widgetFile = $this->fileContents('app/Filament/Widgets/Analytics/ExpenseCategoriesDoughnutChartWidget.php');
+    175▕         $bladeFile = $this->fileContents('resources/views/filament/widgets/analytics/expense-spending-overview.blade.php');
+    176▕ 
+  ➜ 177▕         $this->assertStringContainsString('expenseBreakdownByCategory', $widgetFile);
+    178▕         $this->assertStringContainsString('h-[170px]', $bladeFile);
+    179▕         $this->assertStringContainsString('overflow-y-auto', $bladeFile);
+    180▕         $this->assertStringContainsString('<table', $bladeFile);
+    181▕
+
+  1   tests/Regression/RegressionTest.php:177
+
+  ────────────────────────────────────────────────────────────────────────────  
+   FAILED  Tests\Regression\RegressionTest > feature seven dashboard respons…   
+  Expected: @import "tailwindcss";\n
+  @import "../../../../vendor/filament/filament/resources/css/theme.css";\n
+  \n
+  ... (368 more lines)
+
+  Not to contain: .fi-ta-content {
+
+  at tests/Regression/RegressionTest.php:265
+    261▕         $this->assertStringContainsString(':has(.dashboard-responsive-table-primary)', $theme);
+    262▕         $this->assertStringContainsString(':has(.dashboard-membership-overview-table)', $theme);
+    263▕         $this->assertStringContainsString('dashboard-responsive-stat-card', $theme);
+    264▕         $this->assertStringNotContainsString(".fi-ta table {", $theme);
+  ➜ 265▕         $this->assertStringNotContainsString(".fi-ta-content {", $theme);
+    266▕         $this->assertStringNotContainsString(".fi-ta-cell {", $theme);
+    267▕         $this->assertStringNotContainsString(".fi-wi-stats-overview-stat,", $theme);
+    268▕         $this->assertStringContainsString('dashboard-responsive-stat-card .fi-wi-stats-overview-stat', $theme);
+    269▕
+
+  1   tests/Regression/RegressionTest.php:265
+
+
+  Tests:    9 failed, 139 passed (1089 assertions)
+  Duration: 35.49s
+
+Time: 00:35.237, Memory: 131.00 MB
+
+/home/user/Program/Saas/product-onebase/tests/Feature/Api/AnalyticsApiTest.php
+ ✔ it returns analytics payloads
+
+/home/user/Program/Saas/product-onebase/tests/Feature/Api/ApiCrudFlowTest.php
+ ✔ it supports core CRUD flows for integrations
+
+/home/user/Program/Saas/product-onebase/tests/Feature/Api/ApiPermissionsTest.php
+ ✔ it returns an unauthenticated JSON response without redirecting to a login route
+ ✔ it forbids access when required permissions are missing
+ ✔ it allows access when the correct permission is granted
+
+/home/user/Program/Saas/product-onebase/tests/Feature/Api/AuthApiTest.php
+ ✔ it logs in and returns a bearer token
+ ✔ it logs out and revokes the current token
+
+/home/user/Program/Saas/product-onebase/tests/Feature/Api/LocaleApiTest.php
+ ✔ it localizes API error messages via the locale query parameter
+
+/home/user/Program/Saas/product-onebase/tests/Feature/Api/RichFilteringApiTest.php
+ ✔ it supports allowlisted filters and includes
+ ✔ it returns 400 for invalid query parameters
+
+/home/user/Program/Saas/product-onebase/tests/Feature/Api/SettingsApiTest.php
+ ✔ it reads and updates settings via the API
+
+/home/user/Program/Saas/product-onebase/tests/Feature/CascadingSoftDeletesTest.php
+ ✔ soft deleting an enquiry cascades to follow ups and restore reverses it
+ ✔ soft deleting a member cascades to subscriptions and invoices
+
+/home/user/Program/Saas/product-onebase/tests/Feature/DashboardDemoSeederTest.php
+ ✔ dashboard demo seeder creates enough data for analytics widgets
+ ✔ dashboard demo seeder avoids invoice number collisions with trashed invoices
+ ✔ dashboard demo seeder does not queue invoice emails
+
+/home/user/Program/Saas/product-onebase/tests/Feature/ExampleTest.php
+ ✔ the application returns a successful response
+
+/home/user/Program/Saas/product-onebase/tests/Feature/ExpiringNotificationCommandTest.php
+ ✔ it sends notification for gym expiring within 10 days
+ ✔ it does NOT send notification for gym expiring beyond 10 days
+ ✔ it does NOT send notification for suspended gym
+ ✔ it does NOT send notification for already-expired gym
+ ✔ it rejects invalid --days option
+
+/home/user/Program/Saas/product-onebase/tests/Feature/ExpiringSoonSubscriptionsTableWidgetTest.php
+ ✔ it lists only subscriptions that are ending within the expiring window
+ ✔ it lists only subscriptions that have already ended in the expired tab
+ ✔ it shows only the top 5 expiring memberships on the dashboard widget
+ ✔ it shows only the top 5 expired memberships on the dashboard widget
+
+/home/user/Program/Saas/product-onebase/tests/Feature/FacilityStaffRelationManagerTest.php
+ ✔ it shows only facility staff for current gym via facilityStaff relationship
+ ✔ it facilityStaff excludes users with username admin
+ ✔ it facilityUsers scope excludes usernames colliding with system_admins
+
+/home/user/Program/Saas/product-onebase/tests/Feature/FinancialMetricsWidgetTest.php
+ ✔ it does not render sparklines on net revenue and total collected cards
+
+/home/user/Program/Saas/product-onebase/tests/Feature/InvoiceDocumentControllerTest.php
+ ✔ it forbids invoice preview when the user lacks permission
+ ✔ it renders invoice preview when the user has permission
+ ✔ it downloads the invoice as a PDF when the user has permission
+ ✔ it shows a friendly error state when the invoice is missing required data
+
+/home/user/Program/Saas/product-onebase/tests/Feature/InvoiceDocumentViewRendersTest.php
+ ✔ invoice document view renders Inter font faces and zero page margin css
+
+/home/user/Program/Saas/product-onebase/tests/Feature/InvoiceEmailServiceTest.php
+ ✔ it sends invoice issued email with reply-to when gym email is configured
+
+/home/user/Program/Saas/product-onebase/tests/Feature/InvoiceIssuedEmailJobTest.php
+ ✔ it dispatches the invoice issued email job when enabled in settings
+
+/home/user/Program/Saas/product-onebase/tests/Feature/InvoicePaymentReceiptEmailJobTest.php
+ ✔ it dispatches the payment receipt email job when enabled in settings
+
+/home/user/Program/Saas/product-onebase/tests/Feature/InvoiceTotalsConsistencyTest.php
+ ✔ it keeps subscription_fee as gross and computes tax/total from settings
+
+/home/user/Program/Saas/product-onebase/tests/Feature/LocaleSwitcherTest.php
+ ✔ it persists the selected locale in settings
+ ✔ it ignores unsupported locales
+ ✔ it renders the current locale label in the trigger
+
+/home/user/Program/Saas/product-onebase/tests/Feature/MembershipMetricsWidgetTest.php
+ ✔ it does not show an expiring badge on the active members card
+
+/home/user/Program/Saas/product-onebase/tests/Feature/RecentTransactionsTableWidgetTest.php
+ ✔ it keeps recent transactions responsive while preserving locked query behavior
+ ✔ it shows only the top 5 recent transactions on the dashboard widget
+
+/home/user/Program/Saas/product-onebase/tests/Feature/SettingsPagePersistenceTest.php
+ ✔ it persists settings via the settings repository when saving
+
+/home/user/Program/Saas/product-onebase/tests/Feature/UserCreateFormRolesTest.php
+ ✔ it exposes exactly 5 facility role options via enum
+ ✔ it does NOT expose Spatie role names in facility options
+ ✔ it maps facility OWNER to Spatie super_admin role
+ ✔ it maps non-owner facility roles to Spatie panel_user role
+ ✔ it rejects unknown role values via tryFrom
+ ✔ it returns human-readable labels
+
+/home/user/Program/Saas/product-onebase/tests/Feature/UserResourceExcludesAdminsTest.php
+ ✔ it excludes system admins from facility users list
+ ✔ it excludes user with colliding username from facility users list
+ ✔ it excludes user holding super_admin Spatie role
+
+/home/user/Program/Saas/product-onebase/tests/Unit/AdminPanelProviderMiddlewareTest.php
+ ✔ it includes the locale middleware in the admin panel stack
+
+/home/user/Program/Saas/product-onebase/tests/Unit/AnalyticsDateRangeTest.php
+ ✔ it resolves last 30 days correctly
+ ✔ it resolves month to date correctly
+ ✔ it swaps custom range when dates are reversed
+
+/home/user/Program/Saas/product-onebase/tests/Unit/AnalyticsServiceTest.php
+ ✔ it calculates collected financial and membership metrics within a custom date range
+
+/home/user/Program/Saas/product-onebase/tests/Unit/DashboardHeaderActionsTest.php
+ ✔ it does not register quick actions in the dashboard header
+ ✔ it does not show an export button in the dashboard header view
+
+/home/user/Program/Saas/product-onebase/tests/Unit/DashboardLayoutTest.php
+ ✔ it renders the dashboard grid with mobile tablet and desktop breakpoints
+ ✔ it includes membership overview on the dashboard
+ ✔ it keeps all responsive dashboard widgets in the expected layout tree
+ ✔ it positions spending overview next to financial responsively
+ ✔ it keeps membership and recent transactions balanced on responsive dashboard table row
+
+/home/user/Program/Saas/product-onebase/tests/Unit/DiscountsTest.php
+ ✔ it builds discount options from settings
+ ✔ it calculates discount amount
+
+/home/user/Program/Saas/product-onebase/tests/Unit/ExampleTest.php
+ ✔ that true is true
+
+/home/user/Program/Saas/product-onebase/tests/Unit/FilamentLocalizationTest.php
+ ✔ it localizes Filament resource labels with data set "dataset "fr""
+ ✔ it localizes Filament resource labels with data set "dataset "ar""
+
+/home/user/Program/Saas/product-onebase/tests/Unit/FiscalYearTest.php
+ ✔ it calculates fiscal year span for dates after the start
+ ✔ it shifts fiscal year back when date is before the start
+
+/home/user/Program/Saas/product-onebase/tests/Unit/FollowUpTableColumnsTest.php
+ ✔ it exposes reusable follow-up table columns
+ ✔ it exposes reusable follow-up filters and actions
+
+/home/user/Program/Saas/product-onebase/tests/Unit/GlobalSearchConfigurationTest.php
+ ✔ resources define meaningful global search attributes
+ ✔ resources provide informative global search titles and details
+
+/home/user/Program/Saas/product-onebase/tests/Unit/InvoiceCalculatorTest.php
+ ✔ it calculates an invoice summary with rounding and clamping
+ ✔ it never returns negative totals or dues
+
+/home/user/Program/Saas/product-onebase/tests/Unit/InvoiceDisplayStatusLabelTest.php
+ ✔ it shows issued label for issued invoices
+ ✔ it shows paid label for paid invoices
+
+/home/user/Program/Saas/product-onebase/tests/Unit/JsonSettingsRepositoryCacheTest.php
+ ✔ it returns updated settings after put() within the same request
+
+/home/user/Program/Saas/product-onebase/tests/Unit/PaymentMethodTest.php
+ ✔ it normalizes and classifies payment methods
+ ✔ it exposes stable payment method options for forms
+
+/home/user/Program/Saas/product-onebase/tests/Unit/SetAppLocaleMiddlewareTest.php
+ ✔ it syncs Carbon locale with app locale
+
+Api (Tests\Feature\Api)
+ ✔ Feature one api resources include source and exclude goal
+
+Business Role Resource (Tests\Feature\BusinessRoleResource)
+ ✔ Business role create filters shield permission state before database insert
+ ✔ Business role permission extraction rejects non permission strings
+ ✔ System business role create page can create role with permission selection
+ ✔ Business role edit filters shield permission state before database update
+ ✔ Business role create forces web guard and global gym scope
+ ✔ Business role duplicate name validation remains scoped to web global roles
+
+Business Slug Login (Tests\Feature\BusinessSlugLogin)
+ ✔ Feature four business slug login files are wired
+ ✔ Feature four mandatory temp data contains business slugs
+ ✔ Feature four reserved slug rule blocks generic paths
+
+Dashboard Responsive Layout (Tests\Unit\DashboardResponsiveLayout)
+ ✔ Dashboard stat widgets use responsive columns
+ ✔ Trend charts are bigger responsive marked and use numeric day month labels
+ ✔ Pie charts share uniform size and options without trend fullscreen marker
+ ✘ Dashboard responsive css and js are scoped safe and include chart page button
+   │
+   │ Failed asserting that '@import "tailwindcss";\n
+   │ @import "../../../../vendor/filament/filament/resources/css/theme.css";\n
+   │ \n
+   │ @source '../../../../app/Filament/**/*';\n
+   │ @source '../../../../resources/views/filament/**/*';\n
+   │ @source '../../../js/dashboard-responsive-charts.js';\n
+   │ \n
+   │ .dashboard-responsive-chart-enhanced,\n
+   │ .dashboard-responsive-pie-enhanced,\n
+   │ .dashboard-responsive-pie-chart,\n
+   │ .dashboard-responsive-trend-chart {\n
+   │     --dashboard-responsive-trend-height: 460px;\n
+   │     --dashboard-responsive-pie-height: 380px;\n
+   │     --dashboard-responsive-pie-card-min-height: 476px;\n
+   │ }\n
+   │ \n
+   │ .dashboard-responsive-chart-enhanced,\n
+   │ .dashboard-responsive-pie-enhanced {\n
+   │     position: relative;\n
+   │     min-width: 0;\n
+   │ }\n
+   │ \n
+   │ .dashboard-responsive-chart-enhanced .fi-wi-chart,\n
+   │ .dashboard-responsive-chart-enhanced .fi-wi-chart > div,\n
+   │ .dashboard-responsive-chart-enhanced canvas {\n
+   │     min-width: 0;\n
+   │ }\n
+   │ \n
+   │ .dashboard-responsive-chart-enhanced .fi-wi-chart,\n
+   │ .dashboard-responsive-chart-enhanced .fi-wi-chart > div {\n
+   │     min-height: 360px;\n
+   │ }\n
+   │ \n
+   │ .dashboard-responsive-chart-controls {\n
+   │     display: none;\n
+   │ }\n
+   │ \n
+   │ .dashboard-responsive-chart-bottom-actions {\n
+   │     align-items: center;\n
+   │     justify-content: flex-end;\n
+   │     gap: 0.5rem;\n
+   │     padding: 0.75rem 0.75rem 0;\n
+   │ }\n
+   │ \n
+   │ .dashboard-responsive-chart-open-page-button {\n
+   │     align-items: center;\n
+   │     border-radius: 9999px;\n
+   │     border: 1px solid rgba(148, 163, 184, 0.35);\n
+   │     background: rgba(255, 255, 255, 0.96);\n
+   │     color: rgb(15, 23, 42);\n
+   │     display: inline-flex;\n
+   │     font-size: 0.75rem;\n
+   │     font-weight: 700;\n
+   │     gap: 0.45rem;\n
+   │     justify-content: center;\n
+   │     line-height: 1rem;\n
+   │     min-height: 2.25rem;\n
+   │     padding: 0.45rem 0.8rem;\n
+   │     box-shadow: 0 10px 24px rgba(15, 23, 42, 0.14);\n
+   │ }\n
+   │ \n
+   │ .dashboard-responsive-chart-open-page-icon {\n
+   │     height: 1rem;\n
+   │     width: 1rem;\n
+   │     flex: 0 0 auto;\n
+   │ }\n
+   │ \n
+   │ .dashboard-responsive-chart-open-page-text {\n
+   │     white-space: nowrap;\n
+   │ }\n
+   │ \n
+   │ .dark .dashboard-responsive-chart-open-page-button {\n
+   │     border-color: rgba(71, 85, 105, 0.75);\n
+   │     background: rgba(15, 23, 42, 0.96);\n
+   │     color: rgb(226, 232, 240);\n
+   │ }\n
+   │ \n
+   │ .dashboard-responsive-chart-fullscreen-open {\n
+   │     overflow: hidden;\n
+   │ }\n
+   │ \n
+   │ .dashboard-responsive-chart-fullscreen {\n
+   │     background: var(--fi-color-white);\n
+   │ }\n
+   │ \n
+   │ .dashboard-responsive-chart-data-panel {\n
+   │     display: grid;\n
+   │     gap: 0.625rem;\n
+   │     padding: 0.875rem;\n
+   │     border-top: 1px solid rgba(148, 163, 184, 0.22);\n
+   │     background: rgba(248, 250, 252, 0.92);\n
+   │ }\n
+   │ \n
+   │ .dashboard-responsive-chart-data-title {\n
+   │     margin: 0;\n
+   │     font-size: 0.875rem;\n
+   │     font-weight: 800;\n
+   │     color: rgb(15, 23, 42);\n
+   │ }\n
+   │ \n
+   │ .dashboard-responsive-chart-data-empty {\n
+   │     margin: 0;\n
+   │     font-size: 0.8125rem;\n
+   │     color: rgb(100, 116, 139);\n
+   │ }\n
+   │ \n
+   │ .dashboard-responsive-chart-data-table {\n
+   │     display: grid;\n
+   │     gap: 0.375rem;\n
+   │     overflow: auto;\n
+   │ }\n
+   │ \n
+   │ .dashboard-responsive-chart-data-row {\n
+   │     display: grid;\n
+   │     grid-auto-flow: column;\n
+   │     grid-auto-columns: minmax(7rem, max-content);\n
+   │     gap: 0.375rem;\n
+   │     align-items: stretch;\n
+   │ }\n
+   │ \n
+   │ .dashboard-responsive-chart-data-cell {\n
+   │     border-radius: 0.75rem;\n
+   │     background: rgba(226, 232, 240, 0.8);\n
+   │     padding: 0.55rem 0.7rem;\n
+   │     font-size: 0.8125rem;\n
+   │     font-weight: 650;\n
+   │     white-space: nowrap;\n
+   │ }\n
+   │ \n
+   │ .dashboard-responsive-chart-data-row-header .dashboard-responsive-chart-data-cell {\n
+   │     background: rgba(20, 184, 166, 0.14);\n
+   │     color: #0f766e;\n
+   │     font-weight: 800;\n
+   │ }\n
+   │ \n
+   │ .dark .dashboard-responsive-chart-data-panel {\n
+   │     border-top-color: rgba(71, 85, 105, 0.55);\n
+   │     background: rgba(15, 23, 42, 0.88);\n
+   │ }\n
+   │ \n
+   │ .dark .dashboard-responsive-chart-data-title {\n
+   │     color: rgb(226, 232, 240);\n
+   │ }\n
+   │ \n
+   │ .dark .dashboard-responsive-chart-data-empty {\n
+   │     color: rgb(203, 213, 225);\n
+   │ }\n
+   │ \n
+   │ .dark .dashboard-responsive-chart-data-cell {\n
+   │     background: rgba(30, 41, 59, 0.92);\n
+   │     color: rgb(226, 232, 240);\n
+   │ }\n
+   │ \n
+   │ .dark .dashboard-responsive-chart-data-row-header .dashboard-responsive-chart-data-cell {\n
+   │     background: rgba(20, 184, 166, 0.22);\n
+   │     color: #99f6e4;\n
+   │ }\n
+   │ \n
+   │ .dashboard-responsive-table-primary,\n
+   │ .dashboard-responsive-table-amount,\n
+   │ .dashboard-membership-overview-table,\n
+   │ .fi-ta:has(.dashboard-responsive-table-primary) .fi-ta-cell,\n
+   │ .fi-ta:has(.dashboard-membership-overview-table) .fi-ta-cell,\n
+   │ .dashboard-responsive-stat-card,\n
+   │ .dashboard-responsive-stat-card > div {\n
+   │     min-width: 0;\n
+   │ }\n
+   │ \n
+   │ .dashboard-responsive-stat-card .fi-wi-stats-overview-stat:not(.dashboard-responsive-stat-card),\n
+   │ .dashboard-responsive-stat-card > div {\n
+   │     height: 100%;\n
+   │     min-height: 8.5rem;\n
+   │     padding-bottom: 0.125rem;\n
+   │ }\n
+   │ \n
+   │ .dashboard-responsive-stat-card .fi-wi-stats-overview-stat-value,\n
+   │ .dashboard-responsive-stat-card .fi-wi-stats-overview-stat-description {\n
+   │     overflow-wrap: anywhere;\n
+   │     white-space: normal;\n
+   │ }\n
+   │ \n
+   │ .dashboard-responsive-stat-card .fi-wi-stats-overview-stat-value > div,\n
+   │ .dashboard-responsive-stat-card .fi-wi-stats-overview-stat-description {\n
+   │     flex-wrap: wrap;\n
+   │ }\n
+   │ \n
+   │ .dashboard-responsive-stat-card .fi-wi-stats-overview-stat {\n
+   │     gap: 0.65rem;\n
+   │ }\n
+   │ \n
+   │ .dashboard-responsive-stat-card .fi-wi-stats-overview-stat-label,\n
+   │ .dashboard-responsive-stat-card .fi-wi-stats-overview-stat-description {\n
+   │     line-height: 1.35;\n
+   │ }\n
+   │ \n
+   │ @media (min-width: 768px) and (max-width: 1279.98px) {\n
+   │     .dashboard-responsive-stat-card,\n
+   │     .dashboard-responsive-stat-card > div {\n
+   │         min-height: 9.5rem;\n
+   │     }\n
+   │ \n
+   │     .dashboard-responsive-stat-card .fi-wi-stats-overview-stat {\n
+   │         padding: 0.15rem 0;\n
+   │     }\n
+   │ \n
+   │     .dashboard-responsive-stat-card .fi-wi-stats-overview-stat-value {\n
+   │         line-height: 1.15;\n
+   │     }\n
+   │ }\n
+   │ \n
+   │ @media (min-width: 540px) and (max-width: 1023.98px) {\n
+   │     .dashboard-responsive-stat-card,\n
+   │     .dashboard-responsive-stat-card > div {\n
+   │         min-height: 9.25rem;\n
+   │     }\n
+   │ \n
+   │     .dashboard-responsive-stat-card .fi-wi-stats-overview-stat {\n
+   │         gap: 0.75rem;\n
+   │     }\n
+   │ }\n
+   │ \n
+   │ @media (max-width: 639.98px) {\n
+   │     .dashboard-responsive-stat-card,\n
+   │     .dashboard-responsive-stat-card > div {\n
+   │         min-height: 8.9rem;\n
+   │     }\n
+   │ \n
+   │     .dashboard-responsive-stat-card .fi-wi-stats-overview-stat {\n
+   │         gap: 0.6rem;\n
+   │     }\n
+   │ }\n
+   │ \n
+   │ @media (min-width: 1024px) {\n
+   │     .dashboard-responsive-chart-controls,\n
+   │     .dashboard-responsive-chart-bottom-actions {\n
+   │         display: none !important;\n
+   │     }\n
+   │ }\n
+   │ \n
+   │ @media (max-width: 1023.98px) {\n
+   │     .dashboard-responsive-chart-enhanced .dashboard-responsive-chart-bottom-actions {\n
+   │         display: flex !important;\n
+   │     }\n
+   │ \n
+   │     .dashboard-responsive-chart-fullscreen {\n
+   │         position: fixed;\n
+   │         inset: 0;\n
+   │         z-index: 80;\n
+   │         overflow: auto;\n
+   │         padding: 1rem;\n
+   │         display: grid;\n
+   │         grid-template-rows: minmax(0, 1fr) auto;\n
+   │         align-content: start;\n
+   │         min-height: 100dvh;\n
+   │     }\n
+   │ \n
+   │     .dashboard-responsive-chart-fullscreen .fi-wi-chart,\n
+   │     .dashboard-responsive-chart-fullscreen .fi-wi-chart > div,\n
+   │     .dashboard-responsive-chart-fullscreen canvas {\n
+   │         min-height: max(340px, calc(100dvh - 18rem));\n
+   │         height: auto;\n
+   │     }\n
+   │ \n
+   │     .dashboard-responsive-chart-fullscreen:has(.dashboard-responsive-chart-data-panel) {\n
+   │         grid-template-rows: minmax(0, 1fr) auto;\n
+   │     }\n
+   │ }\n
+   │ \n
+   │ @media (max-width: 767.98px) {\n
+   │     .fi-ta:has(.dashboard-responsive-table-primary) table,\n
+   │     .fi-ta:has(.dashboard-membership-overview-table) table {\n
+   │         min-width: 34rem;\n
+   │     }\n
+   │ \n
+   │     .fi-ta:has(.dashboard-responsive-table-primary) .fi-ta-content,\n
+   │     .fi-ta:has(.dashboard-membership-overview-table) .fi-ta-content {\n
+   │         overflow-x: auto;\n
+   │         -webkit-overflow-scrolling: touch;\n
+   │     }\n
+   │ \n
+   │     .dashboard-responsive-chart-enhanced canvas {\n
+   │         min-height: 320px;\n
+   │     }\n
+   │ \n
+   │     .dashboard-responsive-chart-fullscreen {\n
+   │         padding: 0.75rem;\n
+   │     }\n
+   │ \n
+   │     .dashboard-responsive-chart-data-panel {\n
+   │         padding: 0.75rem;\n
+   │     }\n
+   │ }\n
+   │ \n
+   │ .dashboard-responsive-pie-enhanced {\n
+   │     min-height: var(--dashboard-responsive-pie-card-min-height);\n
+   │ }\n
+   │ \n
+   │ .dashboard-responsive-pie-enhanced .fi-wi-chart,\n
+   │ .dashboard-responsive-pie-enhanced .fi-wi-chart > div {\n
+   │     min-height: var(--dashboard-responsive-pie-height) !important;\n
+   │     height: var(--dashboard-responsive-pie-height) !important;\n
+   │     overflow: visible;\n
+   │ }\n
+   │ \n
+   │ .dashboard-responsive-pie-enhanced canvas {\n
+   │     display: block;\n
+   │     min-height: var(--dashboard-responsive-pie-height) !important;\n
+   │     height: var(--dashboard-responsive-pie-height) !important;\n
+   │     max-height: var(--dashboard-responsive-pie-height) !important;\n
+   │ }\n
+   │ \n
+   │ .dashboard-responsive-pie-enhanced[data-dashboard-responsive-pie="member-source"] {\n
+   │     --dashboard-responsive-pie-card-min-height: 520px;\n
+   │ }\n
+   │ \n
+   │ .dashboard-responsive-pie-legend {\n
+   │     display: grid;\n
+   │     gap: 0.5rem;\n
+   │     grid-template-columns: repeat(auto-fit, minmax(11rem, 1fr));\n
+   │     margin-top: 0.875rem;\n
+   │ }\n
+   │ \n
+   │ .dashboard-responsive-pie-legend-item {\n
+   │     align-items: center;\n
+   │     border-radius: 0.75rem;\n
+   │     background: rgba(241, 245, 249, 0.88);\n
+   │     display: grid;\n
+   │     gap: 0.45rem;\n
+   │     grid-template-columns: auto minmax(0, 1fr) auto;\n
+   │     min-width: 0;\n
+   │     padding: 0.5rem 0.625rem;\n
+   │ }\n
+   │ \n
+   │ .dark .dashboard-responsive-pie-legend-item {\n
+   │     background: rgba(30, 41, 59, 0.86);\n
+   │ }\n
+   │ \n
+   │ .dashboard-responsive-pie-legend-swatch {\n
+   │     border-radius: 9999px;\n
+   │     height: 0.65rem;\n
+   │     width: 0.65rem;\n
+   │ }\n
+   │ \n
+   │ .dashboard-responsive-pie-legend-label {\n
+   │     font-size: 0.75rem;\n
+   │     font-weight: 700;\n
+   │     min-width: 0;\n
+   │     overflow-wrap: anywhere;\n
+   │ }\n
+   │ \n
+   │ .dashboard-responsive-pie-legend-value {\n
+   │     color: rgb(71, 85, 105);\n
+   │     font-size: 0.75rem;\n
+   │     font-weight: 800;\n
+   │     white-space: nowrap;\n
+   │ }\n
+   │ \n
+   │ .dark .dashboard-responsive-pie-legend-value {\n
+   │     color: rgb(203, 213, 225);\n
+   │ }\n
+   │ \n
+   │ @media (min-width: 768px) {\n
+   │     .dashboard-responsive-pie-enhanced canvas,\n
+   │     .dashboard-responsive-pie-enhanced .fi-wi-chart,\n
+   │     .dashboard-responsive-pie-enhanced .fi-wi-chart > div {\n
+   │         min-height: var(--dashboard-responsive-pie-height) !important;\n
+   │         height: var(--dashboard-responsive-pie-height) !important;\n
+   │         max-height: var(--dashboard-responsive-pie-height) !important;\n
+   │     }\n
+   │ }\n
+   │ ' [ASCII](length: 9731) does not contain ".fi-ta-content {" [ASCII](length: 16).
+   │
+   │ /home/user/Program/Saas/product-onebase/tests/Unit/DashboardResponsiveLayoutTest.php:142
+   │
+
+Expense Categories Table Widget (Tests\Feature\ExpenseCategoriesTableWidget)
+ ✘ Expense categories widget query returns all sorted categories
+   │
+   │ Failed asserting that '<?php\n
+   │ \n
+   │ namespace App\Filament\Widgets\Analytics;\n
+   │ \n
+   │ use App\Helpers\Helpers;\n
+   │ use App\Services\Analytics\AnalyticsService;\n
+   │ use App\Support\Analytics\AnalyticsDateRange;\n
+   │ use App\Support\Dashboard\DashboardAccess;\n
+   │ use Filament\Support\Facades\FilamentColor;\n
+   │ use Filament\Widgets\Concerns\InteractsWithPageFilters;\n
+   │ use Filament\Widgets\Widget;\n
+   │ use Illuminate\Support\Collection;\n
+   │ \n
+   │ /**\n
+   │  * Spending overview card showing expense category breakdown for the selected period.\n
+   │  *\n
+   │  * This widget is intentionally not a Chart.js widget, so it can render a "stacked bar"\n
+   │  * and a compact category list (similar to common analytics dashboards).\n
+   │  */\n
+   │ class ExpenseCategoriesDoughnutChartWidget extends Widget\n
+   │ {\n
+   │     use InteractsWithPageFilters;\n
+   │ \n
+   │     protected static ?int $sort = -39;\n
+   │ \n
+   │     /**\n
+   │      * @var view-string\n
+   │      */\n
+   │     protected string $view = 'filament.widgets.analytics.expense-spending-overview';\n
+   │ \n
+   │     public ?string $filter = null;\n
+   │ \n
+   │     /**\n
+   │      * @var int | string | array<string, int | null>\n
+   │      */\n
+   │     protected int|string|array $columnSpan = [\n
+   │         'default' => 1,\n
+   │         'md' => 2,\n
+   │     ];\n
+   │ \n
+   │     /**\n
+   │      * @return array<string, string>|null\n
+   │      */\n
+   │     public function getFilters(): ?array\n
+   │     {\n
+   │         return null;\n
+   │     }\n
+   │ \n
+   │     /**\n
+   │      * Resolve the date range used for this widget.\n
+   │      */\n
+   │     private function resolveRange(): AnalyticsDateRange\n
+   │     {\n
+   │         return DashboardAccess::rangeFromPageFilters($this->pageFilters);\n
+   │     }\n
+   │ \n
+   │     /**\n
+   │      * Resolve a registered Filament color shade (or return a fallback).\n
+   │      *\n
+   │      * @param  array<int | string, string | int> | null  $palette\n
+   │      */\n
+   │     private function colorShade(?array $palette, int|string $shade, string $fallback): string\n
+   │     {\n
+   │         if (is_array($palette)) {\n
+   │             $value = $palette[$shade] ?? null;\n
+   │             if (is_string($value) && filled($value)) {\n
+   │                 return $value;\n
+   │             }\n
+   │ \n
+   │             $fallbackValue = $palette[500] ?? $palette['500'] ?? null;\n
+   │             if (is_string($fallbackValue) && filled($fallbackValue)) {\n
+   │                 return $fallbackValue;\n
+   │             }\n
+   │         }\n
+   │ \n
+   │         return $fallback;\n
+   │     }\n
+   │ \n
+   │     /**\n
+   │      * Segment color palette for expense categories.\n
+   │      *\n
+   │      * Colors are resolved from the panel color configuration registered in\n
+   │      * `app/Providers/Filament/AdminPanelProvider.php`.\n
+   │      *\n
+   │      * @return array<int, string>\n
+   │      */\n
+   │     private function segmentPalette(): array\n
+   │     {\n
+   │         $primary = FilamentColor::getColor('primary');\n
+   │         $info = FilamentColor::getColor('info');\n
+   │         $warning = FilamentColor::getColor('warning');\n
+   │         $success = FilamentColor::getColor('success');\n
+   │ \n
+   │         return [\n
+   │             $this->colorShade($primary, 400, '#1c908d'),\n
+   │             $this->colorShade($primary, 600, '#0e5c5a'),\n
+   │             $this->colorShade($info, 500, '#3B82F6'),\n
+   │             $this->colorShade($warning, 500, '#F97316'),\n
+   │             $this->colorShade($success, 500, '#10B981'),\n
+   │         ];\n
+   │     }\n
+   │ \n
+   │     /**\n
+   │      * Color used for the "Other" segment.\n
+   │      */\n
+   │     private function otherSegmentColor(): string\n
+   │     {\n
+   │         $gray = FilamentColor::getColor('gray');\n
+   │ \n
+   │         return $this->colorShade($gray, 400, '#94A3B8');\n
+   │     }\n
+   │ \n
+   │     /**\n
+   │      * @return Collection<int, array{label: string, total: float, flex: float, color: string}>\n
+   │      */\n
+   │     private function buildSegments(AnalyticsDateRange $range): Collection\n
+   │     {\n
+   │         $rows = app(AnalyticsService::class)->expenseCategoryBreakdownForChart($range, 5);\n
+   │ \n
+   │         $palette = $this->segmentPalette();\n
+   │         $otherColor = $this->otherSegmentColor();\n
+   │ \n
+   │         return $rows\n
+   │             ->values()\n
+   │             ->map(function (array $row, int $index) use ($palette, $otherColor): array {\n
+   │                 $category = (string) $row['category'];\n
+   │                 $resolvedLabel = Helpers::getExpenseCategoryLabel($category);\n
+   │                 $label = (string) ($category === 'Other'\n
+   │                     ? __('app.analytics.other')\n
+   │                     : (is_string($resolvedLabel) && filled($resolvedLabel) ? $resolvedLabel : $category));\n
+   │ \n
+   │                 return [\n
+   │                     'label' => $label,\n
+   │                     'total' => (float) $row['total'],\n
+   │                     'flex' => (float) max((float) $row['total'], 0),\n
+   │                     'color' => $category === 'Other'\n
+   │                         ? $otherColor\n
+   │                         : ($palette[$index] ?? $palette[max(array_key_last($palette) ?? 0, 0)]),\n
+   │                 ];\n
+   │             })\n
+   │             ->filter(fn (array $segment): bool => $segment['flex'] > 0)\n
+   │             ->values();\n
+   │     }\n
+   │ \n
+   │     /**\n
+   │      * @return array<string, mixed>\n
+   │      */\n
+   │     protected function getViewData(): array\n
+   │     {\n
+   │         $isLocked = ! DashboardAccess::allowsWidget(DashboardAccess::WIDGET_EXPENSE_OVERVIEW)\n
+   │             || ! DashboardAccess::allowsMetric(DashboardAccess::METRIC_EXPENSES);\n
+   │ \n
+   │         if ($isLocked) {\n
+   │             return [\n
+   │                 'heading' => DashboardAccess::lockedHeading(__('app.widgets.total_expense')),\n
+   │                 'totalExpense' => Helpers::formatCurrency(0),\n
+   │                 'segments' => collect(),\n
+   │                 'isLocked' => true,\n
+   │                 'lockedMessage' => DashboardAccess::lockedMessage(),\n
+   │             ];\n
+   │         }\n
+   │ \n
+   │         $range = $this->resolveRange();\n
+   │ \n
+   │         $service = app(AnalyticsService::class);\n
+   │         $expenses = (float) $service->financialMetrics($range)['expenses'];\n
+   │ \n
+   │         $segments = $this->buildSegments($range);\n
+   │ \n
+   │         return [\n
+   │             'heading' => __('app.widgets.total_expense'),\n
+   │             'totalExpense' => Helpers::formatCurrency($expenses),\n
+   │             'segments' => $segments,\n
+   │             'isLocked' => false,\n
+   │             'lockedMessage' => null,\n
+   │         ];\n
+   │     }\n
+   │ }\n
+   │ ' [ASCII](length: 5690) contains "expenseBreakdownByCategory" [ASCII](length: 26).
+   │
+   │ /home/user/Program/Saas/product-onebase/tests/Feature/ExpenseCategoriesTableWidgetTest.php:17
+   │
+ ✔ Expense spending overview blade renders table and scroll container
+
+Follow Up (Tests\Feature\FollowUp)
+ ✔ Follow up feature files remain present after feature one
+
+Invoice Number Generator (Tests\Unit\InvoiceNumberGenerator)
+ ✔ Step 1: Given no existing invoices → returns GY-1
+ ✔ Step 2: Given two invoices in the fiscal year → returns GY-3
+ ✔ Step 3: Given only out-of-range invoices → returns GY-1
+
+Lead (Tests\Feature\Lead)
+ ✔ Enquiry form uses requested source options and removes goal
+ ✔ Enquiry model and api schema do not expose goal
+ ✔ Feature two enquiry dob is optional and lead owner labels are clean
+
+Mark Subscriptions Status Command (Tests\Feature\MarkSubscriptionsStatusCommand)
+ ✔ It marks expired and expiring subscriptions and sends database notification
+
+Member (Tests\Feature\Member)
+ ✔ Member form uses requested source options and removes goal
+ ✔ Member model and api schema do not expose goal
+ ✔ Feature three members receive locked global m prefixed codes
+
+Member Code Generator (Tests\Unit\MemberCodeGenerator)
+ ✔ Generated member code uses m prefix and three uppercase alphanumeric characters
+ ✔ Member creation assigns global unique m prefixed codes
+ ✔ Member code is locked after creation
+ ✔ Soft deleted member code is not reused
+
+Membership Overview Responsive (Tests\Feature\MembershipOverviewResponsive)
+ ✘ Membership overview table widget maintains table format and responsive scrolling
+   │
+   │ Illuminate\Database\QueryException: SQLSTATE[01000]: Warning: 1265 Data truncated for column 'status' at row 1 (Connection: mysql, Host: 127.0.0.1, Port: 3306, Database: gymie_test, SQL: insert into `subscriptions` (`gym_id`, `member_id`, `plan_id`, `start_date`, `end_date`, `status`, `updated_at`, `created_at`) values (2, 429, 45, 2026-06-20 00:00:00, 2026-07-02 00:00:00, active, 2026-06-30 12:23:49, 2026-06-30 12:23:49))
+   │
+   │ /home/user/Program/Saas/product-onebase/vendor/laravel/framework/src/Illuminate/Database/MySqlConnection.php:53
+   │ /home/user/Program/Saas/product-onebase/vendor/laravel/framework/src/Illuminate/Database/Connection.php:827
+   │ /home/user/Program/Saas/product-onebase/vendor/laravel/framework/src/Illuminate/Database/Connection.php:794
+   │ /home/user/Program/Saas/product-onebase/vendor/laravel/framework/src/Illuminate/Database/MySqlConnection.php:42
+   │ /home/user/Program/Saas/product-onebase/vendor/laravel/framework/src/Illuminate/Database/Query/Processors/MySqlProcessor.php:35
+   │ /home/user/Program/Saas/product-onebase/vendor/laravel/framework/src/Illuminate/Database/Query/Builder.php:4170
+   │ /home/user/Program/Saas/product-onebase/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Builder.php:2237
+   │ /home/user/Program/Saas/product-onebase/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php:1436
+   │ /home/user/Program/Saas/product-onebase/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php:1401
+   │ /home/user/Program/Saas/product-onebase/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php:1240
+   │ /home/user/Program/Saas/product-onebase/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Builder.php:1219
+   │ /home/user/Program/Saas/product-onebase/vendor/laravel/framework/src/Illuminate/Support/helpers.php:393
+   │ /home/user/Program/Saas/product-onebase/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Builder.php:1218
+   │ /home/user/Program/Saas/product-onebase/vendor/laravel/framework/src/Illuminate/Support/Traits/ForwardsCalls.php:23
+   │ /home/user/Program/Saas/product-onebase/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php:2544
+   │ /home/user/Program/Saas/product-onebase/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php:2560
+   │ /home/user/Program/Saas/product-onebase/tests/Feature/MembershipOverviewResponsiveTest.php:32
+   │  
+   │ Caused by:
+   │ PDOException: SQLSTATE[01000]: Warning: 1265 Data truncated for column 'status' at row 1
+   │
+   │ /home/user/Program/Saas/product-onebase/vendor/laravel/framework/src/Illuminate/Database/MySqlConnection.php:53
+   │ /home/user/Program/Saas/product-onebase/vendor/laravel/framework/src/Illuminate/Database/Connection.php:827
+   │ /home/user/Program/Saas/product-onebase/vendor/laravel/framework/src/Illuminate/Database/Connection.php:794
+   │ /home/user/Program/Saas/product-onebase/vendor/laravel/framework/src/Illuminate/Database/MySqlConnection.php:42
+   │ /home/user/Program/Saas/product-onebase/vendor/laravel/framework/src/Illuminate/Database/Query/Processors/MySqlProcessor.php:35
+   │ /home/user/Program/Saas/product-onebase/vendor/laravel/framework/src/Illuminate/Database/Query/Builder.php:4170
+   │ /home/user/Program/Saas/product-onebase/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Builder.php:2237
+   │ /home/user/Program/Saas/product-onebase/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php:1436
+   │ /home/user/Program/Saas/product-onebase/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php:1401
+   │ /home/user/Program/Saas/product-onebase/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php:1240
+   │ /home/user/Program/Saas/product-onebase/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Builder.php:1219
+   │ /home/user/Program/Saas/product-onebase/vendor/laravel/framework/src/Illuminate/Support/helpers.php:393
+   │ /home/user/Program/Saas/product-onebase/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Builder.php:1218
+   │ /home/user/Program/Saas/product-onebase/vendor/laravel/framework/src/Illuminate/Support/Traits/ForwardsCalls.php:23
+   │ /home/user/Program/Saas/product-onebase/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php:2544
+   │ /home/user/Program/Saas/product-onebase/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php:2560
+   │ /home/user/Program/Saas/product-onebase/tests/Feature/MembershipOverviewResponsiveTest.php:32
+   │
+
+Payment (Tests\Feature\Payment)
+ ✔ Invoice transaction payment files remain present after feature one
+
+Regression (Tests\Regression\Regression)
+ ✘ Feature one source and goal regression contract
+   │
+   │ Failed asserting that '#!/usr/bin/env bash\n
+   │ set -euo pipefail\n
+   │ \n
+   │ SUPER_ADMIN_ID=""\n
+   │ BUSINESS_ADMIN_ID=""\n
+   │ \n
+   │ for arg in "$@"; do\n
+   │     case "$arg" in\n
+   │         --super=*)\n
+   │             SUPER_ADMIN_ID="${arg#--super=}"\n
+   │             ;;\n
+   │         --business=*)\n
+   │             BUSINESS_ADMIN_ID="${arg#--business=}"\n
+   │             ;;\n
+   │     esac\n
+   │ done\n
+   │ \n
+   │ SCRIPT_DIR="$(dirname -- "$0")"\n
+   │ PROJECT_DIR="$SCRIPT_DIR/.."\n
+   │ \n
+   │ cd "$PROJECT_DIR"\n
+   │ \n
+   │ mkdir -p tests/results\n
+   │ \n
+   │ TEST_RUN_TIMESTAMP="$(date +%Y%m%d-%H%M%S)"\n
+   │ ERROR_FILE="tests/results/error-${TEST_RUN_TIMESTAMP}.txt"\n
+   │ \n
+   │ export SUPER_ADMIN_ID\n
+   │ export BUSINESS_ADMIN_ID\n
+   │ export TEST_RUN_TIMESTAMP\n
+   │ export APP_ENV=testing\n
+   │ \n
+   │ : > "$ERROR_FILE"\n
+   │ printf '[%s] Test run initialized.\n' "$(date '+%Y-%m-%d %H:%M:%S')" >> "$ERROR_FILE"\n
+   │ \n
+   │ {\n
+   │     php artisan migrate:fresh --seed --env=testing --force\n
+   │     php artisan db:seed --class=MandatoryTemporaryTestDataSeeder --env=testing --force\n
+   │ } >> "$ERROR_FILE" 2>&1\n
+   │ \n
+   │ set +e\n
+   │ php artisan test tests/Unit tests/Feature tests/Regression tests/Security --env=testing >> "$ERROR_FILE" 2>&1 &\n
+   │ TEST_PID=$!\n
+   │ wait "$TEST_PID"\n
+   │ TEST_STATUS=$?\n
+   │ set -e\n
+   │ \n
+   │ PASSED_COUNT="$(grep -c '✅ PASSED:' "$ERROR_FILE" 2>/dev/null || true)"\n
+   │ FAILED_COUNT="$(grep -c '❌ FAILED:' "$ERROR_FILE" 2>/dev/null || true)"\n
+   │ \n
+   │ if [ "$TEST_STATUS" -eq 0 ]; then\n
+   │     if [ "$PASSED_COUNT" -eq 0 ]; then\n
+   │         PASSED_COUNT=1\n
+   │     fi\n
+   │     printf '✅ Task 7 : Business Dashboard Responsive Tests     [DONE]\n'\n
+   │ else\n
+   │     if [ "$FAILED_COUNT" -eq 0 ]; then\n
+   │         FAILED_COUNT=1\n
+   │         {\n
+   │             printf '[%s] ❌ FAILED: Task7::BusinessDashboardResponsiveTests\n' "$(date '+%Y-%m-%d %H:%M:%S')"\n
+   │             printf '  → Error    : Test suite failed. Review PHPUnit output above in this file.\n'\n
+   │             printf '  → File     : tests/results/error-%s.txt\n' "$TEST_RUN_TIMESTAMP"\n
+   │             printf '  → Line     : 1\n'\n
+   │             printf '  → Expected : All dashboard responsive tests pass\n'\n
+   │             printf '  → Got      : Non-zero test process exit code %s\n' "$TEST_STATUS"\n
+   │             printf '  → Hint     : Check the first PHPUnit failure in this error file.\n'\n
+   │         } >> "$ERROR_FILE"\n
+   │     fi\n
+   │     printf '❌ Task 7 : Business Dashboard Responsive Tests     [FAILED]\n'\n
+   │ fi\n
+   │ \n
+   │ printf '─────────────────────────────────────\n'\n
+   │ printf 'Passed : %s  |  Failed : %s\n' "$PASSED_COUNT" "$FAILED_COUNT"\n
+   │ printf 'Errors  : %s\n' "$ERROR_FILE"\n
+   │ printf '─────────────────────────────────────\n'\n
+   │ \n
+   │ exit "$TEST_STATUS"\n
+   │ ' [UTF-8](length: 2551) contains "Mandatory temporary data import" [ASCII](length: 31).
+   │
+   │ /home/user/Program/Saas/product-onebase/tests/Regression/RegressionTest.php:82
+   │
+ ✘ Feature seven expense categories table widget regression
+   │
+   │ Failed asserting that '<?php\n
+   │ \n
+   │ namespace App\Filament\Widgets\Analytics;\n
+   │ \n
+   │ use App\Helpers\Helpers;\n
+   │ use App\Services\Analytics\AnalyticsService;\n
+   │ use App\Support\Analytics\AnalyticsDateRange;\n
+   │ use App\Support\Dashboard\DashboardAccess;\n
+   │ use Filament\Support\Facades\FilamentColor;\n
+   │ use Filament\Widgets\Concerns\InteractsWithPageFilters;\n
+   │ use Filament\Widgets\Widget;\n
+   │ use Illuminate\Support\Collection;\n
+   │ \n
+   │ /**\n
+   │  * Spending overview card showing expense category breakdown for the selected period.\n
+   │  *\n
+   │  * This widget is intentionally not a Chart.js widget, so it can render a "stacked bar"\n
+   │  * and a compact category list (similar to common analytics dashboards).\n
+   │  */\n
+   │ class ExpenseCategoriesDoughnutChartWidget extends Widget\n
+   │ {\n
+   │     use InteractsWithPageFilters;\n
+   │ \n
+   │     protected static ?int $sort = -39;\n
+   │ \n
+   │     /**\n
+   │      * @var view-string\n
+   │      */\n
+   │     protected string $view = 'filament.widgets.analytics.expense-spending-overview';\n
+   │ \n
+   │     public ?string $filter = null;\n
+   │ \n
+   │     /**\n
+   │      * @var int | string | array<string, int | null>\n
+   │      */\n
+   │     protected int|string|array $columnSpan = [\n
+   │         'default' => 1,\n
+   │         'md' => 2,\n
+   │     ];\n
+   │ \n
+   │     /**\n
+   │      * @return array<string, string>|null\n
+   │      */\n
+   │     public function getFilters(): ?array\n
+   │     {\n
+   │         return null;\n
+   │     }\n
+   │ \n
+   │     /**\n
+   │      * Resolve the date range used for this widget.\n
+   │      */\n
+   │     private function resolveRange(): AnalyticsDateRange\n
+   │     {\n
+   │         return DashboardAccess::rangeFromPageFilters($this->pageFilters);\n
+   │     }\n
+   │ \n
+   │     /**\n
+   │      * Resolve a registered Filament color shade (or return a fallback).\n
+   │      *\n
+   │      * @param  array<int | string, string | int> | null  $palette\n
+   │      */\n
+   │     private function colorShade(?array $palette, int|string $shade, string $fallback): string\n
+   │     {\n
+   │         if (is_array($palette)) {\n
+   │             $value = $palette[$shade] ?? null;\n
+   │             if (is_string($value) && filled($value)) {\n
+   │                 return $value;\n
+   │             }\n
+   │ \n
+   │             $fallbackValue = $palette[500] ?? $palette['500'] ?? null;\n
+   │             if (is_string($fallbackValue) && filled($fallbackValue)) {\n
+   │                 return $fallbackValue;\n
+   │             }\n
+   │         }\n
+   │ \n
+   │         return $fallback;\n
+   │     }\n
+   │ \n
+   │     /**\n
+   │      * Segment color palette for expense categories.\n
+   │      *\n
+   │      * Colors are resolved from the panel color configuration registered in\n
+   │      * `app/Providers/Filament/AdminPanelProvider.php`.\n
+   │      *\n
+   │      * @return array<int, string>\n
+   │      */\n
+   │     private function segmentPalette(): array\n
+   │     {\n
+   │         $primary = FilamentColor::getColor('primary');\n
+   │         $info = FilamentColor::getColor('info');\n
+   │         $warning = FilamentColor::getColor('warning');\n
+   │         $success = FilamentColor::getColor('success');\n
+   │ \n
+   │         return [\n
+   │             $this->colorShade($primary, 400, '#1c908d'),\n
+   │             $this->colorShade($primary, 600, '#0e5c5a'),\n
+   │             $this->colorShade($info, 500, '#3B82F6'),\n
+   │             $this->colorShade($warning, 500, '#F97316'),\n
+   │             $this->colorShade($success, 500, '#10B981'),\n
+   │         ];\n
+   │     }\n
+   │ \n
+   │     /**\n
+   │      * Color used for the "Other" segment.\n
+   │      */\n
+   │     private function otherSegmentColor(): string\n
+   │     {\n
+   │         $gray = FilamentColor::getColor('gray');\n
+   │ \n
+   │         return $this->colorShade($gray, 400, '#94A3B8');\n
+   │     }\n
+   │ \n
+   │     /**\n
+   │      * @return Collection<int, array{label: string, total: float, flex: float, color: string}>\n
+   │      */\n
+   │     private function buildSegments(AnalyticsDateRange $range): Collection\n
+   │     {\n
+   │         $rows = app(AnalyticsService::class)->expenseCategoryBreakdownForChart($range, 5);\n
+   │ \n
+   │         $palette = $this->segmentPalette();\n
+   │         $otherColor = $this->otherSegmentColor();\n
+   │ \n
+   │         return $rows\n
+   │             ->values()\n
+   │             ->map(function (array $row, int $index) use ($palette, $otherColor): array {\n
+   │                 $category = (string) $row['category'];\n
+   │                 $resolvedLabel = Helpers::getExpenseCategoryLabel($category);\n
+   │                 $label = (string) ($category === 'Other'\n
+   │                     ? __('app.analytics.other')\n
+   │                     : (is_string($resolvedLabel) && filled($resolvedLabel) ? $resolvedLabel : $category));\n
+   │ \n
+   │                 return [\n
+   │                     'label' => $label,\n
+   │                     'total' => (float) $row['total'],\n
+   │                     'flex' => (float) max((float) $row['total'], 0),\n
+   │                     'color' => $category === 'Other'\n
+   │                         ? $otherColor\n
+   │                         : ($palette[$index] ?? $palette[max(array_key_last($palette) ?? 0, 0)]),\n
+   │                 ];\n
+   │             })\n
+   │             ->filter(fn (array $segment): bool => $segment['flex'] > 0)\n
+   │             ->values();\n
+   │     }\n
+   │ \n
+   │     /**\n
+   │      * @return array<string, mixed>\n
+   │      */\n
+   │     protected function getViewData(): array\n
+   │     {\n
+   │         $isLocked = ! DashboardAccess::allowsWidget(DashboardAccess::WIDGET_EXPENSE_OVERVIEW)\n
+   │             || ! DashboardAccess::allowsMetric(DashboardAccess::METRIC_EXPENSES);\n
+   │ \n
+   │         if ($isLocked) {\n
+   │             return [\n
+   │                 'heading' => DashboardAccess::lockedHeading(__('app.widgets.total_expense')),\n
+   │                 'totalExpense' => Helpers::formatCurrency(0),\n
+   │                 'segments' => collect(),\n
+   │                 'isLocked' => true,\n
+   │                 'lockedMessage' => DashboardAccess::lockedMessage(),\n
+   │             ];\n
+   │         }\n
+   │ \n
+   │         $range = $this->resolveRange();\n
+   │ \n
+   │         $service = app(AnalyticsService::class);\n
+   │         $expenses = (float) $service->financialMetrics($range)['expenses'];\n
+   │ \n
+   │         $segments = $this->buildSegments($range);\n
+   │ \n
+   │         return [\n
+   │             'heading' => __('app.widgets.total_expense'),\n
+   │             'totalExpense' => Helpers::formatCurrency($expenses),\n
+   │             'segments' => $segments,\n
+   │             'isLocked' => false,\n
+   │             'lockedMessage' => null,\n
+   │         ];\n
+   │     }\n
+   │ }\n
+   │ ' [ASCII](length: 5690) contains "expenseBreakdownByCategory" [ASCII](length: 26).
+   │
+   │ /home/user/Program/Saas/product-onebase/tests/Regression/RegressionTest.php:177
+   │
+ ✔ Feature eight membership responsive regression
+ ✘ Feature seven dashboard responsive regression
+   │
+   │ Failed asserting that '@import "tailwindcss";\n
+   │ @import "../../../../vendor/filament/filament/resources/css/theme.css";\n
+   │ \n
+   │ @source '../../../../app/Filament/**/*';\n
+   │ @source '../../../../resources/views/filament/**/*';\n
+   │ @source '../../../js/dashboard-responsive-charts.js';\n
+   │ \n
+   │ .dashboard-responsive-chart-enhanced,\n
+   │ .dashboard-responsive-pie-enhanced,\n
+   │ .dashboard-responsive-pie-chart,\n
+   │ .dashboard-responsive-trend-chart {\n
+   │     --dashboard-responsive-trend-height: 460px;\n
+   │     --dashboard-responsive-pie-height: 380px;\n
+   │     --dashboard-responsive-pie-card-min-height: 476px;\n
+   │ }\n
+   │ \n
+   │ .dashboard-responsive-chart-enhanced,\n
+   │ .dashboard-responsive-pie-enhanced {\n
+   │     position: relative;\n
+   │     min-width: 0;\n
+   │ }\n
+   │ \n
+   │ .dashboard-responsive-chart-enhanced .fi-wi-chart,\n
+   │ .dashboard-responsive-chart-enhanced .fi-wi-chart > div,\n
+   │ .dashboard-responsive-chart-enhanced canvas {\n
+   │     min-width: 0;\n
+   │ }\n
+   │ \n
+   │ .dashboard-responsive-chart-enhanced .fi-wi-chart,\n
+   │ .dashboard-responsive-chart-enhanced .fi-wi-chart > div {\n
+   │     min-height: 360px;\n
+   │ }\n
+   │ \n
+   │ .dashboard-responsive-chart-controls {\n
+   │     display: none;\n
+   │ }\n
+   │ \n
+   │ .dashboard-responsive-chart-bottom-actions {\n
+   │     align-items: center;\n
+   │     justify-content: flex-end;\n
+   │     gap: 0.5rem;\n
+   │     padding: 0.75rem 0.75rem 0;\n
+   │ }\n
+   │ \n
+   │ .dashboard-responsive-chart-open-page-button {\n
+   │     align-items: center;\n
+   │     border-radius: 9999px;\n
+   │     border: 1px solid rgba(148, 163, 184, 0.35);\n
+   │     background: rgba(255, 255, 255, 0.96);\n
+   │     color: rgb(15, 23, 42);\n
+   │     display: inline-flex;\n
+   │     font-size: 0.75rem;\n
+   │     font-weight: 700;\n
+   │     gap: 0.45rem;\n
+   │     justify-content: center;\n
+   │     line-height: 1rem;\n
+   │     min-height: 2.25rem;\n
+   │     padding: 0.45rem 0.8rem;\n
+   │     box-shadow: 0 10px 24px rgba(15, 23, 42, 0.14);\n
+   │ }\n
+   │ \n
+   │ .dashboard-responsive-chart-open-page-icon {\n
+   │     height: 1rem;\n
+   │     width: 1rem;\n
+   │     flex: 0 0 auto;\n
+   │ }\n
+   │ \n
+   │ .dashboard-responsive-chart-open-page-text {\n
+   │     white-space: nowrap;\n
+   │ }\n
+   │ \n
+   │ .dark .dashboard-responsive-chart-open-page-button {\n
+   │     border-color: rgba(71, 85, 105, 0.75);\n
+   │     background: rgba(15, 23, 42, 0.96);\n
+   │     color: rgb(226, 232, 240);\n
+   │ }\n
+   │ \n
+   │ .dashboard-responsive-chart-fullscreen-open {\n
+   │     overflow: hidden;\n
+   │ }\n
+   │ \n
+   │ .dashboard-responsive-chart-fullscreen {\n
+   │     background: var(--fi-color-white);\n
+   │ }\n
+   │ \n
+   │ .dashboard-responsive-chart-data-panel {\n
+   │     display: grid;\n
+   │     gap: 0.625rem;\n
+   │     padding: 0.875rem;\n
+   │     border-top: 1px solid rgba(148, 163, 184, 0.22);\n
+   │     background: rgba(248, 250, 252, 0.92);\n
+   │ }\n
+   │ \n
+   │ .dashboard-responsive-chart-data-title {\n
+   │     margin: 0;\n
+   │     font-size: 0.875rem;\n
+   │     font-weight: 800;\n
+   │     color: rgb(15, 23, 42);\n
+   │ }\n
+   │ \n
+   │ .dashboard-responsive-chart-data-empty {\n
+   │     margin: 0;\n
+   │     font-size: 0.8125rem;\n
+   │     color: rgb(100, 116, 139);\n
+   │ }\n
+   │ \n
+   │ .dashboard-responsive-chart-data-table {\n
+   │     display: grid;\n
+   │     gap: 0.375rem;\n
+   │     overflow: auto;\n
+   │ }\n
+   │ \n
+   │ .dashboard-responsive-chart-data-row {\n
+   │     display: grid;\n
+   │     grid-auto-flow: column;\n
+   │     grid-auto-columns: minmax(7rem, max-content);\n
+   │     gap: 0.375rem;\n
+   │     align-items: stretch;\n
+   │ }\n
+   │ \n
+   │ .dashboard-responsive-chart-data-cell {\n
+   │     border-radius: 0.75rem;\n
+   │     background: rgba(226, 232, 240, 0.8);\n
+   │     padding: 0.55rem 0.7rem;\n
+   │     font-size: 0.8125rem;\n
+   │     font-weight: 650;\n
+   │     white-space: nowrap;\n
+   │ }\n
+   │ \n
+   │ .dashboard-responsive-chart-data-row-header .dashboard-responsive-chart-data-cell {\n
+   │     background: rgba(20, 184, 166, 0.14);\n
+   │     color: #0f766e;\n
+   │     font-weight: 800;\n
+   │ }\n
+   │ \n
+   │ .dark .dashboard-responsive-chart-data-panel {\n
+   │     border-top-color: rgba(71, 85, 105, 0.55);\n
+   │     background: rgba(15, 23, 42, 0.88);\n
+   │ }\n
+   │ \n
+   │ .dark .dashboard-responsive-chart-data-title {\n
+   │     color: rgb(226, 232, 240);\n
+   │ }\n
+   │ \n
+   │ .dark .dashboard-responsive-chart-data-empty {\n
+   │     color: rgb(203, 213, 225);\n
+   │ }\n
+   │ \n
+   │ .dark .dashboard-responsive-chart-data-cell {\n
+   │     background: rgba(30, 41, 59, 0.92);\n
+   │     color: rgb(226, 232, 240);\n
+   │ }\n
+   │ \n
+   │ .dark .dashboard-responsive-chart-data-row-header .dashboard-responsive-chart-data-cell {\n
+   │     background: rgba(20, 184, 166, 0.22);\n
+   │     color: #99f6e4;\n
+   │ }\n
+   │ \n
+   │ .dashboard-responsive-table-primary,\n
+   │ .dashboard-responsive-table-amount,\n
+   │ .dashboard-membership-overview-table,\n
+   │ .fi-ta:has(.dashboard-responsive-table-primary) .fi-ta-cell,\n
+   │ .fi-ta:has(.dashboard-membership-overview-table) .fi-ta-cell,\n
+   │ .dashboard-responsive-stat-card,\n
+   │ .dashboard-responsive-stat-card > div {\n
+   │     min-width: 0;\n
+   │ }\n
+   │ \n
+   │ .dashboard-responsive-stat-card .fi-wi-stats-overview-stat:not(.dashboard-responsive-stat-card),\n
+   │ .dashboard-responsive-stat-card > div {\n
+   │     height: 100%;\n
+   │     min-height: 8.5rem;\n
+   │     padding-bottom: 0.125rem;\n
+   │ }\n
+   │ \n
+   │ .dashboard-responsive-stat-card .fi-wi-stats-overview-stat-value,\n
+   │ .dashboard-responsive-stat-card .fi-wi-stats-overview-stat-description {\n
+   │     overflow-wrap: anywhere;\n
+   │     white-space: normal;\n
+   │ }\n
+   │ \n
+   │ .dashboard-responsive-stat-card .fi-wi-stats-overview-stat-value > div,\n
+   │ .dashboard-responsive-stat-card .fi-wi-stats-overview-stat-description {\n
+   │     flex-wrap: wrap;\n
+   │ }\n
+   │ \n
+   │ .dashboard-responsive-stat-card .fi-wi-stats-overview-stat {\n
+   │     gap: 0.65rem;\n
+   │ }\n
+   │ \n
+   │ .dashboard-responsive-stat-card .fi-wi-stats-overview-stat-label,\n
+   │ .dashboard-responsive-stat-card .fi-wi-stats-overview-stat-description {\n
+   │     line-height: 1.35;\n
+   │ }\n
+   │ \n
+   │ @media (min-width: 768px) and (max-width: 1279.98px) {\n
+   │     .dashboard-responsive-stat-card,\n
+   │     .dashboard-responsive-stat-card > div {\n
+   │         min-height: 9.5rem;\n
+   │     }\n
+   │ \n
+   │     .dashboard-responsive-stat-card .fi-wi-stats-overview-stat {\n
+   │         padding: 0.15rem 0;\n
+   │     }\n
+   │ \n
+   │     .dashboard-responsive-stat-card .fi-wi-stats-overview-stat-value {\n
+   │         line-height: 1.15;\n
+   │     }\n
+   │ }\n
+   │ \n
+   │ @media (min-width: 540px) and (max-width: 1023.98px) {\n
+   │     .dashboard-responsive-stat-card,\n
+   │     .dashboard-responsive-stat-card > div {\n
+   │         min-height: 9.25rem;\n
+   │     }\n
+   │ \n
+   │     .dashboard-responsive-stat-card .fi-wi-stats-overview-stat {\n
+   │         gap: 0.75rem;\n
+   │     }\n
+   │ }\n
+   │ \n
+   │ @media (max-width: 639.98px) {\n
+   │     .dashboard-responsive-stat-card,\n
+   │     .dashboard-responsive-stat-card > div {\n
+   │         min-height: 8.9rem;\n
+   │     }\n
+   │ \n
+   │     .dashboard-responsive-stat-card .fi-wi-stats-overview-stat {\n
+   │         gap: 0.6rem;\n
+   │     }\n
+   │ }\n
+   │ \n
+   │ @media (min-width: 1024px) {\n
+   │     .dashboard-responsive-chart-controls,\n
+   │     .dashboard-responsive-chart-bottom-actions {\n
+   │         display: none !important;\n
+   │     }\n
+   │ }\n
+   │ \n
+   │ @media (max-width: 1023.98px) {\n
+   │     .dashboard-responsive-chart-enhanced .dashboard-responsive-chart-bottom-actions {\n
+   │         display: flex !important;\n
+   │     }\n
+   │ \n
+   │     .dashboard-responsive-chart-fullscreen {\n
+   │         position: fixed;\n
+   │         inset: 0;\n
+   │         z-index: 80;\n
+   │         overflow: auto;\n
+   │         padding: 1rem;\n
+   │         display: grid;\n
+   │         grid-template-rows: minmax(0, 1fr) auto;\n
+   │         align-content: start;\n
+   │         min-height: 100dvh;\n
+   │     }\n
+   │ \n
+   │     .dashboard-responsive-chart-fullscreen .fi-wi-chart,\n
+   │     .dashboard-responsive-chart-fullscreen .fi-wi-chart > div,\n
+   │     .dashboard-responsive-chart-fullscreen canvas {\n
+   │         min-height: max(340px, calc(100dvh - 18rem));\n
+   │         height: auto;\n
+   │     }\n
+   │ \n
+   │     .dashboard-responsive-chart-fullscreen:has(.dashboard-responsive-chart-data-panel) {\n
+   │         grid-template-rows: minmax(0, 1fr) auto;\n
+   │     }\n
+   │ }\n
+   │ \n
+   │ @media (max-width: 767.98px) {\n
+   │     .fi-ta:has(.dashboard-responsive-table-primary) table,\n
+   │     .fi-ta:has(.dashboard-membership-overview-table) table {\n
+   │         min-width: 34rem;\n
+   │     }\n
+   │ \n
+   │     .fi-ta:has(.dashboard-responsive-table-primary) .fi-ta-content,\n
+   │     .fi-ta:has(.dashboard-membership-overview-table) .fi-ta-content {\n
+   │         overflow-x: auto;\n
+   │         -webkit-overflow-scrolling: touch;\n
+   │     }\n
+   │ \n
+   │     .dashboard-responsive-chart-enhanced canvas {\n
+   │         min-height: 320px;\n
+   │     }\n
+   │ \n
+   │     .dashboard-responsive-chart-fullscreen {\n
+   │         padding: 0.75rem;\n
+   │     }\n
+   │ \n
+   │     .dashboard-responsive-chart-data-panel {\n
+   │         padding: 0.75rem;\n
+   │     }\n
+   │ }\n
+   │ \n
+   │ .dashboard-responsive-pie-enhanced {\n
+   │     min-height: var(--dashboard-responsive-pie-card-min-height);\n
+   │ }\n
+   │ \n
+   │ .dashboard-responsive-pie-enhanced .fi-wi-chart,\n
+   │ .dashboard-responsive-pie-enhanced .fi-wi-chart > div {\n
+   │     min-height: var(--dashboard-responsive-pie-height) !important;\n
+   │     height: var(--dashboard-responsive-pie-height) !important;\n
+   │     overflow: visible;\n
+   │ }\n
+   │ \n
+   │ .dashboard-responsive-pie-enhanced canvas {\n
+   │     display: block;\n
+   │     min-height: var(--dashboard-responsive-pie-height) !important;\n
+   │     height: var(--dashboard-responsive-pie-height) !important;\n
+   │     max-height: var(--dashboard-responsive-pie-height) !important;\n
+   │ }\n
+   │ \n
+   │ .dashboard-responsive-pie-enhanced[data-dashboard-responsive-pie="member-source"] {\n
+   │     --dashboard-responsive-pie-card-min-height: 520px;\n
+   │ }\n
+   │ \n
+   │ .dashboard-responsive-pie-legend {\n
+   │     display: grid;\n
+   │     gap: 0.5rem;\n
+   │     grid-template-columns: repeat(auto-fit, minmax(11rem, 1fr));\n
+   │     margin-top: 0.875rem;\n
+   │ }\n
+   │ \n
+   │ .dashboard-responsive-pie-legend-item {\n
+   │     align-items: center;\n
+   │     border-radius: 0.75rem;\n
+   │     background: rgba(241, 245, 249, 0.88);\n
+   │     display: grid;\n
+   │     gap: 0.45rem;\n
+   │     grid-template-columns: auto minmax(0, 1fr) auto;\n
+   │     min-width: 0;\n
+   │     padding: 0.5rem 0.625rem;\n
+   │ }\n
+   │ \n
+   │ .dark .dashboard-responsive-pie-legend-item {\n
+   │     background: rgba(30, 41, 59, 0.86);\n
+   │ }\n
+   │ \n
+   │ .dashboard-responsive-pie-legend-swatch {\n
+   │     border-radius: 9999px;\n
+   │     height: 0.65rem;\n
+   │     width: 0.65rem;\n
+   │ }\n
+   │ \n
+   │ .dashboard-responsive-pie-legend-label {\n
+   │     font-size: 0.75rem;\n
+   │     font-weight: 700;\n
+   │     min-width: 0;\n
+   │     overflow-wrap: anywhere;\n
+   │ }\n
+   │ \n
+   │ .dashboard-responsive-pie-legend-value {\n
+   │     color: rgb(71, 85, 105);\n
+   │     font-size: 0.75rem;\n
+   │     font-weight: 800;\n
+   │     white-space: nowrap;\n
+   │ }\n
+   │ \n
+   │ .dark .dashboard-responsive-pie-legend-value {\n
+   │     color: rgb(203, 213, 225);\n
+   │ }\n
+   │ \n
+   │ @media (min-width: 768px) {\n
+   │     .dashboard-responsive-pie-enhanced canvas,\n
+   │     .dashboard-responsive-pie-enhanced .fi-wi-chart,\n
+   │     .dashboard-responsive-pie-enhanced .fi-wi-chart > div {\n
+   │         min-height: var(--dashboard-responsive-pie-height) !important;\n
+   │         height: var(--dashboard-responsive-pie-height) !important;\n
+   │         max-height: var(--dashboard-responsive-pie-height) !important;\n
+   │     }\n
+   │ }\n
+   │ ' [ASCII](length: 9731) does not contain ".fi-ta-content {" [ASCII](length: 16).
+   │
+   │ /home/user/Program/Saas/product-onebase/tests/Regression/RegressionTest.php:265
+   │
+ ✔ Feature seven revision one dashboard responsive corrections regression
+ ✔ Feature seven revision two dashboard open page and pie categories regression
+
+Role Permission (Tests\Feature\RolePermission)
+ ✔ Role and permission files remain present after feature one
+
+Security (Tests\Security\Security)
+ ✔ Feature one removes stale goal attack surface from runtime code
+
+Strict Filament Crud Ui (Tests\Feature\StrictFilamentCrudUi)
+ ✔ Member resource exposes create edit and list ui pages
+ ✔ Enquiry resource exposes create edit and list ui pages
+ ✔ Business role create page can create role with permission selection
+
+Strict Role Access (Tests\Feature\StrictRoleAccess)
+ ✔ Super admin can access system panel
+ ✘ Business user cannot access system panel
+   │
+   │ Expected response status code [403] but received 302.
+   │ Failed asserting that 302 is identical to 403.
+   │
+   │ /home/user/Program/Saas/product-onebase/vendor/laravel/framework/src/Illuminate/Testing/TestResponseAssert.php:45
+   │ /home/user/Program/Saas/product-onebase/vendor/laravel/framework/src/Illuminate/Testing/TestResponse.php:175
+   │ /home/user/Program/Saas/product-onebase/vendor/laravel/framework/src/Illuminate/Testing/Concerns/AssertsStatusCodes.php:141
+   │ /home/user/Program/Saas/product-onebase/tests/Feature/StrictRoleAccessTest.php:38
+   │
+ ✔ Business user can only see own gym data via api
+ ✔ Business user without required permission is forbidden from member index
+ ✔ Business user with required permission can access member index
+ ✔ Create permission is required for member store
+ ✔ System admin and business user tables remain separate
+
+Strict Security Payload (Tests\Security\StrictSecurityPayload)
+ ✔ Unauthorized api access is rejected for protected resources
+ ✔ Xss like payload in search is sanitized
+ ✔ Sql like search does not cause error
+ ✔ Negative expense amount is rejected
+
+Strict Tenant Isolation Edge (Tests\Feature\StrictTenantIsolationEdge)
+ ✘ User cannot see members from another gym
+   │
+   │ Expected response status code [>=200, <300] but received 403.
+   │ Failed asserting that false is true.
+   │
+   │ /home/user/Program/Saas/product-onebase/vendor/laravel/framework/src/Illuminate/Testing/TestResponseAssert.php:45
+   │ /home/user/Program/Saas/product-onebase/vendor/laravel/framework/src/Illuminate/Testing/TestResponse.php:104
+   │ /home/user/Program/Saas/product-onebase/tests/Feature/StrictTenantIsolationEdgeTest.php:63
+   │
+ ✘ Cross gym access is blocked on direct model query
+   │
+   │ Failed asserting that an array does not contain 434.
+   │
+   │ /home/user/Program/Saas/product-onebase/tests/Feature/StrictTenantIsolationEdgeTest.php:112
+   │
+
+Subscription (Tests\Feature\Subscription)
+ ✔ Subscription feature files remain present after feature one
+
+Tenant Isolation (Tests\Feature\TenantIsolation)
+ ✔ Tenant isolation trait remains present after feature one
+ ✔ Feature four slug login preserves tenant isolation contract
+
+Validation (Tests\Feature\Validation)
+ ✔ Member and enquiry source validation allows only requested values
+ ✔ Feature two enquiry dob remains nullable in api validation
+
+ERRORS!
+Tests: 148, Assertions: 1089, Errors: 1, Failures: 8.
