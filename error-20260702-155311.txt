@@ -1,0 +1,4 @@
+[2026-07-02 15:53:11] Test run initialized.
+[2026-07-02 15:53:11] ✅ PASSED: Tests\Feature\BusinessSlugLoginTest::test_feature_four_business_slug_login_files_are_wired
+[2026-07-02 15:53:11] ✅ PASSED: Tests\Feature\BusinessSlugLoginTest::test_feature_four_mandatory_temp_data_contains_business_slugs
+[2026-07-02 15:53:11] ✅ PASSED: Tests\Feature\BusinessSlugLoginTest::test_feature_four_reserved_slug_rule_blocks_generic_paths

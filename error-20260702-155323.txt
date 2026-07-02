@@ -1,0 +1,2 @@
+[2026-07-02 15:53:23] Test run initialized.
+[2026-07-02 15:53:23] ✅ PASSED: Tests\Feature\RolePermissionTest::test_role_and_permission_files_remain_present_after_feature_one

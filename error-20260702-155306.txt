@@ -1,0 +1,2 @@
+[2026-07-02 15:53:06] Test run initialized.
+[2026-07-02 15:53:06] ✅ PASSED: Tests\Feature\BusinessLoginHtmlCleanlinessTest::test_feature_eleven_login_html_removes_extra_slug_and_hint_info

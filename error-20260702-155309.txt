@@ -1,0 +1,7 @@
+[2026-07-02 15:53:09] Test run initialized.
+[2026-07-02 15:53:09] ✅ PASSED: Tests\Feature\BusinessRoleResourceTest::test_business_role_create_filters_shield_permission_state_before_database_insert
+[2026-07-02 15:53:09] ✅ PASSED: Tests\Feature\BusinessRoleResourceTest::test_business_role_permission_extraction_rejects_non_permission_strings
+[2026-07-02 15:53:10] ✅ PASSED: Tests\Feature\BusinessRoleResourceTest::test_system_business_role_create_page_can_create_role_with_permission_selection
+[2026-07-02 15:53:10] ✅ PASSED: Tests\Feature\BusinessRoleResourceTest::test_business_role_edit_filters_shield_permission_state_before_database_update
+[2026-07-02 15:53:10] ✅ PASSED: Tests\Feature\BusinessRoleResourceTest::test_business_role_create_forces_web_guard_and_global_gym_scope
+[2026-07-02 15:53:10] ✅ PASSED: Tests\Feature\BusinessRoleResourceTest::test_business_role_duplicate_name_validation_remains_scoped_to_web_global_roles

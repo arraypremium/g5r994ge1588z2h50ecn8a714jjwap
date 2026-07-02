@@ -1,0 +1,3 @@
+[2026-07-02 15:53:38] Test run initialized.
+[2026-07-02 15:53:38] ✅ PASSED: Tests\Regression\PieChartSizingAndPaletteTest::test_all_pie_widgets_share_the_same_responsive_max_height
+[2026-07-02 15:53:38] ✅ PASSED: Tests\Regression\PieChartSizingAndPaletteTest::test_pie_widget_colors_are_neither_too_light_nor_too_dark

@@ -1,0 +1,2 @@
+[2026-07-02 15:53:40] Test run initialized.
+[2026-07-02 15:53:40] ✅ PASSED: Tests\Security\SecurityTest::test_feature_one_removes_stale_goal_attack_surface_from_runtime_code

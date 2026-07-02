@@ -1,0 +1,3 @@
+[2026-07-02 15:53:16] Test run initialized.
+[2026-07-02 15:53:16] ✅ PASSED: Tests\Feature\LoginErrorAnimationAndForgotRemovalTest::test_feature_twelve_forgot_password_removed_and_animations_wired
+[2026-07-02 15:53:16] ✅ PASSED: Tests\Feature\LoginErrorAnimationAndForgotRemovalTest::test_feature_twelve_revision_two_all_three_fields_animate_on_error

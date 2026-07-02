@@ -1,0 +1,4 @@
+[2026-07-02 15:53:21] Test run initialized.
+[2026-07-02 15:53:21] ✅ PASSED: Tests\Feature\MemberTest::test_member_form_uses_requested_source_options_and_removes_goal
+[2026-07-02 15:53:21] ✅ PASSED: Tests\Feature\MemberTest::test_member_model_and_api_schema_do_not_expose_goal
+[2026-07-02 15:53:21] ✅ PASSED: Tests\Feature\MemberTest::test_feature_three_members_receive_locked_global_m_prefixed_codes

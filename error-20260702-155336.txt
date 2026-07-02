@@ -1,0 +1,4 @@
+[2026-07-02 15:53:36] Test run initialized.
+[2026-07-02 15:53:36] ✅ PASSED: Tests\Feature\SubscriptionTest::test_subscription_feature_files_remain_present_after_feature_one
+[2026-07-02 15:53:36] ✅ PASSED: Tests\Feature\TenantIsolationTest::test_tenant_isolation_trait_remains_present_after_feature_one
+[2026-07-02 15:53:36] ✅ PASSED: Tests\Feature\TenantIsolationTest::test_feature_four_slug_login_preserves_tenant_isolation_contract

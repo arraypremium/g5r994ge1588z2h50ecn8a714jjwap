@@ -1,0 +1,378 @@
+[2026-07-02 21:22:54] ❌ FAILED: AdminPanelProviderMiddlewareTest
+  → Error    : Test failures detected
+  → File     : /home/user/Program/Saas/product-onebase/tests/Unit/AdminPanelProviderMiddlewareTest.php
+  → Details  :
+
+   Pest\Exceptions\InvalidPestCommand 
+
+  Please run [./vendor/bin/pest] instead.
+
+[2026-07-02 21:22:54] ❌ FAILED: AnalyticsDateRangeTest
+  → Error    : Test failures detected
+  → File     : /home/user/Program/Saas/product-onebase/tests/Unit/AnalyticsDateRangeTest.php
+  → Details  :
+
+   Pest\Exceptions\InvalidPestCommand 
+
+  Please run [./vendor/bin/pest] instead.
+
+[2026-07-02 21:22:54] ❌ FAILED: AnalyticsServiceTest
+  → Error    : Test failures detected
+  → File     : /home/user/Program/Saas/product-onebase/tests/Unit/AnalyticsServiceTest.php
+  → Details  :
+
+   Pest\Exceptions\InvalidPestCommand 
+
+  Please run [./vendor/bin/pest] instead.
+
+[2026-07-02 21:22:54] ❌ FAILED: DashboardHeaderActionsTest
+  → Error    : Test failures detected
+  → File     : /home/user/Program/Saas/product-onebase/tests/Unit/DashboardHeaderActionsTest.php
+  → Details  :
+
+   Pest\Exceptions\InvalidPestCommand 
+
+  Please run [./vendor/bin/pest] instead.
+
+[2026-07-02 21:22:54] ❌ FAILED: DashboardLayoutTest
+  → Error    : Test failures detected
+  → File     : /home/user/Program/Saas/product-onebase/tests/Unit/DashboardLayoutTest.php
+  → Details  :
+
+   Pest\Exceptions\InvalidPestCommand 
+
+  Please run [./vendor/bin/pest] instead.
+
+[2026-07-02 21:22:54] ❌ FAILED: DiscountsTest
+  → Error    : Test failures detected
+  → File     : /home/user/Program/Saas/product-onebase/tests/Unit/DiscountsTest.php
+  → Details  :
+
+   Pest\Exceptions\InvalidPestCommand 
+
+  Please run [./vendor/bin/pest] instead.
+
+[2026-07-02 21:22:55] ❌ FAILED: ExampleTest
+  → Error    : Test failures detected
+  → File     : /home/user/Program/Saas/product-onebase/tests/Unit/ExampleTest.php
+  → Details  :
+
+   Pest\Exceptions\InvalidPestCommand 
+
+  Please run [./vendor/bin/pest] instead.
+
+[2026-07-02 21:22:55] ❌ FAILED: FilamentLocalizationTest
+  → Error    : Test failures detected
+  → File     : /home/user/Program/Saas/product-onebase/tests/Unit/FilamentLocalizationTest.php
+  → Details  :
+
+   Pest\Exceptions\InvalidPestCommand 
+
+  Please run [./vendor/bin/pest] instead.
+
+[2026-07-02 21:22:55] ❌ FAILED: FiscalYearTest
+  → Error    : Test failures detected
+  → File     : /home/user/Program/Saas/product-onebase/tests/Unit/FiscalYearTest.php
+  → Details  :
+
+   Pest\Exceptions\InvalidPestCommand 
+
+  Please run [./vendor/bin/pest] instead.
+
+[2026-07-02 21:22:55] ❌ FAILED: FollowUpTableColumnsTest
+  → Error    : Test failures detected
+  → File     : /home/user/Program/Saas/product-onebase/tests/Unit/FollowUpTableColumnsTest.php
+  → Details  :
+
+   Pest\Exceptions\InvalidPestCommand 
+
+  Please run [./vendor/bin/pest] instead.
+
+[2026-07-02 21:22:55] ❌ FAILED: GlobalSearchConfigurationTest
+  → Error    : Test failures detected
+  → File     : /home/user/Program/Saas/product-onebase/tests/Unit/GlobalSearchConfigurationTest.php
+  → Details  :
+
+   Pest\Exceptions\InvalidPestCommand 
+
+  Please run [./vendor/bin/pest] instead.
+
+[2026-07-02 21:22:55] ❌ FAILED: InvoiceCalculatorTest
+  → Error    : Test failures detected
+  → File     : /home/user/Program/Saas/product-onebase/tests/Unit/InvoiceCalculatorTest.php
+  → Details  :
+
+   Pest\Exceptions\InvalidPestCommand 
+
+  Please run [./vendor/bin/pest] instead.
+
+[2026-07-02 21:22:55] ❌ FAILED: InvoiceDisplayStatusLabelTest
+  → Error    : Test failures detected
+  → File     : /home/user/Program/Saas/product-onebase/tests/Unit/InvoiceDisplayStatusLabelTest.php
+  → Details  :
+
+   Pest\Exceptions\InvalidPestCommand 
+
+  Please run [./vendor/bin/pest] instead.
+
+[2026-07-02 21:22:59] ❌ FAILED: JsonSettingsRepositoryCacheTest
+  → Error    : Test failures detected
+  → File     : /home/user/Program/Saas/product-onebase/tests/Unit/JsonSettingsRepositoryCacheTest.php
+  → Details  :
+
+   Pest\Exceptions\InvalidPestCommand 
+
+  Please run [./vendor/bin/pest] instead.
+
+[2026-07-02 21:23:03] ❌ FAILED: PaymentMethodTest
+  → Error    : Test failures detected
+  → File     : /home/user/Program/Saas/product-onebase/tests/Unit/PaymentMethodTest.php
+  → Details  :
+
+   Pest\Exceptions\InvalidPestCommand 
+
+  Please run [./vendor/bin/pest] instead.
+
+[2026-07-02 21:23:03] ❌ FAILED: SetAppLocaleMiddlewareTest
+  → Error    : Test failures detected
+  → File     : /home/user/Program/Saas/product-onebase/tests/Unit/SetAppLocaleMiddlewareTest.php
+  → Details  :
+
+   Pest\Exceptions\InvalidPestCommand 
+
+  Please run [./vendor/bin/pest] instead.
+
+[2026-07-02 21:23:04] ❌ FAILED: AnalyticsApiTest
+  → Error    : Test failures detected
+  → File     : /home/user/Program/Saas/product-onebase/tests/Feature/Api/AnalyticsApiTest.php
+  → Details  :
+
+   Pest\Exceptions\InvalidPestCommand 
+
+  Please run [./vendor/bin/pest] instead.
+
+[2026-07-02 21:23:04] ❌ FAILED: ApiCrudFlowTest
+  → Error    : Test failures detected
+  → File     : /home/user/Program/Saas/product-onebase/tests/Feature/Api/ApiCrudFlowTest.php
+  → Details  :
+
+   Pest\Exceptions\InvalidPestCommand 
+
+  Please run [./vendor/bin/pest] instead.
+
+[2026-07-02 21:23:04] ❌ FAILED: ApiPermissionsTest
+  → Error    : Test failures detected
+  → File     : /home/user/Program/Saas/product-onebase/tests/Feature/Api/ApiPermissionsTest.php
+  → Details  :
+
+   Pest\Exceptions\InvalidPestCommand 
+
+  Please run [./vendor/bin/pest] instead.
+
+[2026-07-02 21:23:04] ❌ FAILED: AuthApiTest
+  → Error    : Test failures detected
+  → File     : /home/user/Program/Saas/product-onebase/tests/Feature/Api/AuthApiTest.php
+  → Details  :
+
+   Pest\Exceptions\InvalidPestCommand 
+
+  Please run [./vendor/bin/pest] instead.
+
+[2026-07-02 21:23:04] ❌ FAILED: LocaleApiTest
+  → Error    : Test failures detected
+  → File     : /home/user/Program/Saas/product-onebase/tests/Feature/Api/LocaleApiTest.php
+  → Details  :
+
+   Pest\Exceptions\InvalidPestCommand 
+
+  Please run [./vendor/bin/pest] instead.
+
+[2026-07-02 21:23:04] ❌ FAILED: RichFilteringApiTest
+  → Error    : Test failures detected
+  → File     : /home/user/Program/Saas/product-onebase/tests/Feature/Api/RichFilteringApiTest.php
+  → Details  :
+
+   Pest\Exceptions\InvalidPestCommand 
+
+  Please run [./vendor/bin/pest] instead.
+
+[2026-07-02 21:23:04] ❌ FAILED: SettingsApiTest
+  → Error    : Test failures detected
+  → File     : /home/user/Program/Saas/product-onebase/tests/Feature/Api/SettingsApiTest.php
+  → Details  :
+
+   Pest\Exceptions\InvalidPestCommand 
+
+  Please run [./vendor/bin/pest] instead.
+
+[2026-07-02 21:23:11] ❌ FAILED: CascadingSoftDeletesTest
+  → Error    : Test failures detected
+  → File     : /home/user/Program/Saas/product-onebase/tests/Feature/CascadingSoftDeletesTest.php
+  → Details  :
+
+   Pest\Exceptions\InvalidPestCommand 
+
+  Please run [./vendor/bin/pest] instead.
+
+[2026-07-02 21:23:11] ❌ FAILED: DashboardDemoSeederTest
+  → Error    : Test failures detected
+  → File     : /home/user/Program/Saas/product-onebase/tests/Feature/DashboardDemoSeederTest.php
+  → Details  :
+
+   Pest\Exceptions\InvalidPestCommand 
+
+  Please run [./vendor/bin/pest] instead.
+
+[2026-07-02 21:23:12] ❌ FAILED: ExampleTest
+  → Error    : Test failures detected
+  → File     : /home/user/Program/Saas/product-onebase/tests/Feature/ExampleTest.php
+  → Details  :
+
+   Pest\Exceptions\InvalidPestCommand 
+
+  Please run [./vendor/bin/pest] instead.
+
+[2026-07-02 21:23:12] ❌ FAILED: ExpiringNotificationCommandTest
+  → Error    : Test failures detected
+  → File     : /home/user/Program/Saas/product-onebase/tests/Feature/ExpiringNotificationCommandTest.php
+  → Details  :
+
+   Pest\Exceptions\InvalidPestCommand 
+
+  Please run [./vendor/bin/pest] instead.
+
+[2026-07-02 21:23:13] ❌ FAILED: ExpiringSoonSubscriptionsTableWidgetTest
+  → Error    : Test failures detected
+  → File     : /home/user/Program/Saas/product-onebase/tests/Feature/ExpiringSoonSubscriptionsTableWidgetTest.php
+  → Details  :
+
+   Pest\Exceptions\InvalidPestCommand 
+
+  Please run [./vendor/bin/pest] instead.
+
+[2026-07-02 21:23:13] ❌ FAILED: FacilityStaffRelationManagerTest
+  → Error    : Test failures detected
+  → File     : /home/user/Program/Saas/product-onebase/tests/Feature/FacilityStaffRelationManagerTest.php
+  → Details  :
+
+   Pest\Exceptions\InvalidPestCommand 
+
+  Please run [./vendor/bin/pest] instead.
+
+[2026-07-02 21:23:13] ❌ FAILED: FinancialMetricsWidgetTest
+  → Error    : Test failures detected
+  → File     : /home/user/Program/Saas/product-onebase/tests/Feature/FinancialMetricsWidgetTest.php
+  → Details  :
+
+   Pest\Exceptions\InvalidPestCommand 
+
+  Please run [./vendor/bin/pest] instead.
+
+[2026-07-02 21:23:14] ❌ FAILED: InvoiceDocumentControllerTest
+  → Error    : Test failures detected
+  → File     : /home/user/Program/Saas/product-onebase/tests/Feature/InvoiceDocumentControllerTest.php
+  → Details  :
+
+   Pest\Exceptions\InvalidPestCommand 
+
+  Please run [./vendor/bin/pest] instead.
+
+[2026-07-02 21:23:14] ❌ FAILED: InvoiceDocumentViewRendersTest
+  → Error    : Test failures detected
+  → File     : /home/user/Program/Saas/product-onebase/tests/Feature/InvoiceDocumentViewRendersTest.php
+  → Details  :
+
+   Pest\Exceptions\InvalidPestCommand 
+
+  Please run [./vendor/bin/pest] instead.
+
+[2026-07-02 21:23:14] ❌ FAILED: InvoiceEmailServiceTest
+  → Error    : Test failures detected
+  → File     : /home/user/Program/Saas/product-onebase/tests/Feature/InvoiceEmailServiceTest.php
+  → Details  :
+
+   Pest\Exceptions\InvalidPestCommand 
+
+  Please run [./vendor/bin/pest] instead.
+
+[2026-07-02 21:23:14] ❌ FAILED: InvoiceIssuedEmailJobTest
+  → Error    : Test failures detected
+  → File     : /home/user/Program/Saas/product-onebase/tests/Feature/InvoiceIssuedEmailJobTest.php
+  → Details  :
+
+   Pest\Exceptions\InvalidPestCommand 
+
+  Please run [./vendor/bin/pest] instead.
+
+[2026-07-02 21:23:14] ❌ FAILED: InvoicePaymentReceiptEmailJobTest
+  → Error    : Test failures detected
+  → File     : /home/user/Program/Saas/product-onebase/tests/Feature/InvoicePaymentReceiptEmailJobTest.php
+  → Details  :
+
+   Pest\Exceptions\InvalidPestCommand 
+
+  Please run [./vendor/bin/pest] instead.
+
+[2026-07-02 21:23:15] ❌ FAILED: InvoiceTotalsConsistencyTest
+  → Error    : Test failures detected
+  → File     : /home/user/Program/Saas/product-onebase/tests/Feature/InvoiceTotalsConsistencyTest.php
+  → Details  :
+
+   Pest\Exceptions\InvalidPestCommand 
+
+  Please run [./vendor/bin/pest] instead.
+
+[2026-07-02 21:23:15] ❌ FAILED: LocaleSwitcherTest
+  → Error    : Test failures detected
+  → File     : /home/user/Program/Saas/product-onebase/tests/Feature/LocaleSwitcherTest.php
+  → Details  :
+
+   Pest\Exceptions\InvalidPestCommand 
+
+  Please run [./vendor/bin/pest] instead.
+
+[2026-07-02 21:23:20] ❌ FAILED: MembershipMetricsWidgetTest
+  → Error    : Test failures detected
+  → File     : /home/user/Program/Saas/product-onebase/tests/Feature/MembershipMetricsWidgetTest.php
+  → Details  :
+
+   Pest\Exceptions\InvalidPestCommand 
+
+  Please run [./vendor/bin/pest] instead.
+
+[2026-07-02 21:23:22] ❌ FAILED: RecentTransactionsTableWidgetTest
+  → Error    : Test failures detected
+  → File     : /home/user/Program/Saas/product-onebase/tests/Feature/RecentTransactionsTableWidgetTest.php
+  → Details  :
+
+   Pest\Exceptions\InvalidPestCommand 
+
+  Please run [./vendor/bin/pest] instead.
+
+[2026-07-02 21:23:23] ❌ FAILED: SettingsPagePersistenceTest
+  → Error    : Test failures detected
+  → File     : /home/user/Program/Saas/product-onebase/tests/Feature/SettingsPagePersistenceTest.php
+  → Details  :
+
+   Pest\Exceptions\InvalidPestCommand 
+
+  Please run [./vendor/bin/pest] instead.
+
+[2026-07-02 21:23:37] ❌ FAILED: UserCreateFormRolesTest
+  → Error    : Test failures detected
+  → File     : /home/user/Program/Saas/product-onebase/tests/Feature/UserCreateFormRolesTest.php
+  → Details  :
+
+   Pest\Exceptions\InvalidPestCommand 
+
+  Please run [./vendor/bin/pest] instead.
+
+[2026-07-02 21:23:37] ❌ FAILED: UserResourceExcludesAdminsTest
+  → Error    : Test failures detected
+  → File     : /home/user/Program/Saas/product-onebase/tests/Feature/UserResourceExcludesAdminsTest.php
+  → Details  :
+
+   Pest\Exceptions\InvalidPestCommand 
+
+  Please run [./vendor/bin/pest] instead.
+

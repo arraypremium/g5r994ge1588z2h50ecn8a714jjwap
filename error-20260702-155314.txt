@@ -1,0 +1,2 @@
+[2026-07-02 15:53:14] Test run initialized.
+[2026-07-02 15:53:14] ✅ PASSED: Tests\Feature\FollowUpTest::test_follow_up_feature_files_remain_present_after_feature_one

@@ -1,0 +1,3 @@
+[2026-07-02 15:53:37] Test run initialized.
+[2026-07-02 15:53:37] ✅ PASSED: Tests\Feature\ValidationTest::test_member_and_enquiry_source_validation_allows_only_requested_values
+[2026-07-02 15:53:37] ✅ PASSED: Tests\Feature\ValidationTest::test_feature_two_enquiry_dob_remains_nullable_in_api_validation

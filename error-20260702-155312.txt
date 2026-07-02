@@ -1,0 +1,2 @@
+[2026-07-02 15:53:12] Test run initialized.
+[2026-07-02 15:53:12] ✅ PASSED: Tests\Feature\ExpenseCategoriesTableWidgetTest::test_expense_spending_overview_blade_renders_table_and_scroll_container

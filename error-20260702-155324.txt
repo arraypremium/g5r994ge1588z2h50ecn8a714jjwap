@@ -1,0 +1,2 @@
+[2026-07-02 15:53:24] Test run initialized.
+[2026-07-02 15:53:24] ✅ PASSED: Tests\Feature\SigninBusinessSlugOptionTest::test_feature_ten_revision_three_authenticate_tenant_redirects_to_slug_login

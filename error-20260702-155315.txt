@@ -1,0 +1,4 @@
+[2026-07-02 15:53:15] Test run initialized.
+[2026-07-02 15:53:15] ✅ PASSED: Tests\Feature\LeadTest::test_enquiry_form_uses_requested_source_options_and_removes_goal
+[2026-07-02 15:53:15] ✅ PASSED: Tests\Feature\LeadTest::test_enquiry_model_and_api_schema_do_not_expose_goal
+[2026-07-02 15:53:15] ✅ PASSED: Tests\Feature\LeadTest::test_feature_two_enquiry_dob_is_optional_and_lead_owner_labels_are_clean

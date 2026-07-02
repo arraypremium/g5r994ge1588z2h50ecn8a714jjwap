@@ -1,0 +1,2 @@
+[2026-07-02 15:53:05] Test run initialized.
+[2026-07-02 15:53:05] ✅ PASSED: Tests\Feature\ApiTest::test_feature_one_api_resources_include_source_and_exclude_goal

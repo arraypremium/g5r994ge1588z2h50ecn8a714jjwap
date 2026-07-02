@@ -1,0 +1,2 @@
+[2026-07-02 15:53:22] Test run initialized.
+[2026-07-02 15:53:22] ✅ PASSED: Tests\Feature\PaymentTest::test_invoice_transaction_payment_files_remain_present_after_feature_one
